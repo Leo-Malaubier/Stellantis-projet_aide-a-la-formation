@@ -35,6 +35,9 @@ class Lecture(Frame):
         self._pere=pere
         Frame.__init__(self, pere)
 
+        self.dictionnaire_indice={}
+        self.disctionnaire_element={}
+
         self.parametres=GenXml.Lecture_Settings.settings()
         print(self.parametres._indice)
 
@@ -55,22 +58,25 @@ class Lecture(Frame):
         except:
             self.chemain_complet_init=ligne[0]
         #print("le chemain",self.chemain_complet_init)
-        print("voila le split", self.chemain_complet_init.split('.')[-1])
-        print(ligne[0].split('\n')[0])
-        if self.chemain_complet_init.split('.')[-1]== "xml":
-            self.chemain_complet_init=self.chemain_complet_init.split(".")[0]
+        # print("voila le split", self.chemain_complet_init.split('.')[-1])
+        # print(ligne[0].split('\n')[0])
+        # print("ici",self.chemain_complet_init.split('.')[2])
+        if  self.chemain_complet_init.split('.')[-1]== "xml":
             try:
-                with open(self.chemain_complet_init+".csv"): pass
-                self.chemain_complet_init+=".csv"
+                with open(self.chemain_complet_init.replace("xml","csv")): pass
+                self.chemain_complet_init=self.chemain_complet_init.replace("xml","csv")
+
             except:
                 try:
-                    with open(self.chemain_complet_init+".xlsx"): pass
-                    self.chemain_complet_init+=".xlsx"
+                    with open(self.chemain_complet_init.replace("xml","xlsx")): pass
+                    self.chemain_complet_init=self.chemain_complet_init.replace("xml","xlsx")
+                    self.logger.info("fichier trouvé")
                 except:
-                    print("fichier introuvable")
+                    self.logger.warning("fichier introuvable")
         else:
-            print("le fichier n'est pas xml")
-        print("voila le fichier",self.chemain_complet_init)
+            self.logger.info("le fichier n'est pas xml")
+        # print(self.chemain_complet_init)
+        # print("voila le fichier",self.chemain_complet_init)
         self.logger.debug((self.lecture,"lecture"))
         self.logger.debug((self.lecture.split(".")[1],"lecture avec split"))
 
@@ -82,6 +88,8 @@ class Lecture(Frame):
         else:
             self.lecture=emplacement_fichier_xml+ligne[1]
 
+
+        self.indice_element()
 
         self.affichage()
         self.organisation_bouton(None)
@@ -95,6 +103,29 @@ class Lecture(Frame):
 
         self.affichage_niveaux()
         self.affichage_fils_frame2()
+
+
+    def indice_element(self):
+        print("indice_element")
+        NomSimple=self.chemain_complet_init.split('/')[-1]
+        parametres=GenXml.Lecture_Settings.settings()
+        if NomSimple.split('.')[-1] == 'csv':
+            tableau_indice=GenXml.Lecture_Donnee.lecture_fueilles_csv(self.chemain_complet_init,parametres._indice)
+        else:
+            tableau_indice=GenXml.Lecture_Donnee.lecture_fueilles_xlsx(self.chemain_complet_init,parametres._indice)
+        for i in range(len(tableau_indice)):
+            if isinstance(tableau_indice[i][0],str):
+                clef=""
+                val=""
+                for j in range(len(tableau_indice[i][0])):
+                    if j == 0:
+                        clef=tableau_indice[i][0][j]
+                    else:
+                        if tableau_indice[i][0][j]=="-" or tableau_indice[i][0][j]==">" or (tableau_indice[i][0][j]==" " and tableau_indice[i][0][j-1]==">" ) :
+                            pass
+                        else:
+                            val+=tableau_indice[i][0][j]
+                self.dictionnaire_indice[clef]=val
 
     def retour(self):
         self._pere.switch(GenXml.Accueil.Connexion)
@@ -150,18 +181,6 @@ class Lecture(Frame):
         #une liste (liste_boutton) d'objet boutton_valeur qui on pour parent un élément de la liste liste_label_frame_pere
         #la liste de boutton est sous un forme simulaire à: [[],[]]
 
-        # NomSimple=fichier.split('/')[-1]
-        # parametres=GenXml.Lecture_Settings.settings()
-        # if NomSimple.split('.')[1] == 'csv':
-        #     tableau_etape=GenXml.Lecture_Donnee.lecture_fueilles_csv(fichier,parametres._etape)
-        #     tableau_etapePrecision=GenXml.Lecture_Donnee.lecture_fueilles_csv(fichier,parametres._etapePrecision)
-        #     tableau_tabPrincipale=GenXml.Lecture_Donnee.lecture_fueilles_csv(fichier,parametres._tabPrincipale)
-        #     tableau_indice=GenXml.Lecture_Donnee.lecture_fueilles_csv(fichier,parametres._indice)
-        # else:
-        #     tableau_etape=GenXml.Lecture_Donnee.lecture_fueilles_xlsx(fichier,parametres._etape)
-        #     tableau_etapePrecision=GenXml.Lecture_Donnee.lecture_fueilles_xlsx(fichier,parametres._etapePrecision)
-        #     tableau_tabPrincipale=GenXml.Lecture_Donnee.lecture_fueilles_xlsx(fichier,parametres._tabPrincipale)
-        #     tableau_indice=GenXml.Lecture_Donnee.lecture_fueilles_xlsx(fichier,parametres._indice)
 
     def affichage_fils_frame2(self):
         self.frame2.update()
@@ -276,73 +295,3 @@ class Lecture(Frame):
                 self.logger.info(type(value))
                 #print("la valeur atteinte en nombre est ",j)
         self.organisation_erreur()
-
-
-    def trouve_titre_commentaire(self,parent,nom,value):
-        #print(len(self.liste_erreur))
-        document = etree.parse(self.lecture)
-        for pere in document.xpath("/Famille/Pere"):
-            #print("voila le père:",pere.get("name"))
-            #print("voila le père envoyé:",parent)
-
-            if pere.get("name") == parent:
-                for i in range(len(pere)):
-                    if pere[i].get("name") == nom:
-                        #print(pere[i].get("name"))
-                        for j in range(len(pere[i])):
-
-                            self.logger.info("-----------information détaillé-------------")
-                            self.logger.info(("id: ",pere[i][j].get("id")))
-                            self.logger.info(type(pere[i][j].get("id")))
-                            self.logger.info(("value :",value))
-                            self.logger.info(("petit_fils :",pere[i][j]))
-                            self.logger.debug(("couleur : ",pere[i][j].get("couleur")))
-                            self.logger.debug("------------------------")
-
-                            if pere[i][j].get("id") == str(value):
-
-                                Liste_Titre=[]
-                                Liste_erreur=[]
-                                val=True
-                                var=0
-                                self.logger.debug((type(pere[i][j].get('titre_'+str(var))),"voici un type"))
-                                while (val==True):
-                                    if isinstance(pere[i][j].get('titre_'+str(var)),str) == True :
-                                        if pere[i][j].get('titre_'+str(var)) != "None":
-
-                                            self.logger.debug(("titre : ",pere[i][j].get('titre_'+str(var)), " ----titre---- type : ",type(pere[i][j].get('titre_'+str(var)))))
-
-                                            Liste_Titre.append(pere[i][j].get('titre_'+str(var)))
-                                            var+=1
-                                        else:
-                                            val=False
-                                            self.logger.debug("stop")
-                                    else:
-                                        val=False
-                                        self.logger.debug("stop")
-
-                                val=True
-                                var=0
-                                while (val==True):
-                                    if isinstance(pere[i][j].get('commentaire_'+str(var)),str) == True :
-                                        if pere[i][j].get('commentaire_'+str(var)) != "None":
-
-                                            self.logger.debug(("commentaire : ",pere[i][j].get('commentaire_'+str(var)), " ----commentaire---- type : ",type(pere[i][j].get('commentaire_'+str(var)))))
-
-                                            Liste_erreur.append(pere[i][j].get('commentaire_'+str(var)))
-                                            var+=1
-                                        else:
-                                            val=False
-                                            self.logger.debug("stop")
-                                    else:
-                                        val=False
-                                        self.logger.debug("stop")
-
-
-                                nouvelle_objet=Simulation.Erreur.Erreur(self.frame1)
-                                #print(nouvelle_objet)
-                                nouvelle_objet.creation([pere[i][j].get('couleur'),Liste_Titre,Liste_erreur,pere.get("name")+"-"])
-                                self.liste_erreur.append(nouvelle_objet)
-                                #rint(self.liste_erreur)
-            else:
-                print("pas trouvé")
