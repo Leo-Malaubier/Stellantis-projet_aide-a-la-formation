@@ -6,8 +6,8 @@
 			<Petit_Fils id="1" titre_0="Brûlures (peau d'orange)" titre_1="Tapures" value="eli" couleur="red"/>
 			<Petit_Fils id="2" titre_0="None" commentaire_0="Grossissement de grain" value="3" couleur="orange"/>
 			<Petit_Fils id="3" titre_0="None" commentaire_0="La profondeur de trempe augmente" value="2" couleur="green"/>
-			<Petit_Fils id="4" titre_0="None" commentaire_0="None" value="1" couleur="green"/>
-			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="4" titre_0="test" value="1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="test" value="0" couleur="green"/>
 			<Petit_Fils id="6" titre_0="None" commentaire_0="La profondeur de trempe diminue" value="-1" couleur="green"/>
 			<Petit_Fils id="7" titre_0="None" commentaire_0="La profondeur de trempe diminue" value="-2" couleur="green"/>
 			<Petit_Fils id="8" titre_0="None" commentaire_0="La dureté de surface diminue" value="-3" couleur="orange"/>

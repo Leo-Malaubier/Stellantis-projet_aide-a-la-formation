@@ -8,7 +8,7 @@ import logging
 import verififaction_file_log
 
 
-emplacement_fichier="../../fichier_cours/"
+emplacement_fichier="../fichier_cours/"
 fichier_log="log/log.log"
 #--------------------------------------------------------------------------------------------
 try:
@@ -37,7 +37,7 @@ def traitement(list,type_fichier):
 
 def rangement():
 
-    liste=(os.listdir("../../fichier_cours"))
+    liste=(os.listdir(emplacement_fichier))
     Liste=[]
     _logger.debug(liste)
 

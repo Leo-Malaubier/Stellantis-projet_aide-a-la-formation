@@ -8,7 +8,7 @@ import verififaction_file_log
 
 dossier="xml_generateur"
 fichier_log="log/log.log"
-
+fichier_cours="../fichier_cours/xml/"
 #--------------------------------------------------------------------------------------------
 try:
     logging.basicConfig(filename=fichier_log, level=logging.DEBUG,
@@ -85,7 +85,7 @@ def generationXML(fichier):
     _logger.debug(tableau_indice)
     _logger.debug(len(tableau_indice))
 
-    file = open("../../fichier_cours/xml/"+NomSimple.split('.')[0]+".xml","w")
+    file = open(fichier_cours+NomSimple.split('.')[0]+".xml","w")
     parent=""
     vari=0
 

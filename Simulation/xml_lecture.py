@@ -50,7 +50,7 @@ class Lecture(Frame):
         self.logger.debug((self.lecture,"lecture"))
         self.logger.debug((self.lecture.split(".")[1],"lecture avec split"))
 
-        emplacement_fichier_xml="../../fichier_cours/xml/"
+        emplacement_fichier_xml="../fichier_cours/xml/"
 
         if self.lecture.split(".")[1]== "xlsx" or self.lecture.split(".")[1]=="csv":
             self.logger.info('----recherche de lecture xml-------------')
@@ -82,9 +82,9 @@ class Lecture(Frame):
         self.logger.info((self._pere.winfo_width(),'information parent width: '))
         self.logger.info((self._pere.winfo_height(),'information parent height: '))
 
-        self.frame1=LabelFrame(self,bg="brown",width=self._pere.winfo_width(),height=(self._pere.winfo_height()/3),text="frame1")
-        self.frame2=LabelFrame(self,bg="green",width=self._pere.winfo_width(),height=(self._pere.winfo_height()/3),text="frame2")
-        self.frame3=LabelFrame(self,bg="yellow",width=self._pere.winfo_width(),height=(self._pere.winfo_height()/3),text="frame3")
+        self.frame1=LabelFrame(self,width=self._pere.winfo_width(),height=(self._pere.winfo_height()/3),text="frame1")
+        self.frame2=LabelFrame(self,width=self._pere.winfo_width(),height=(self._pere.winfo_height()/3),text="frame2")
+        self.frame3=LabelFrame(self,width=self._pere.winfo_width(),height=(self._pere.winfo_height()/3),text="frame3")
 
         Button(self.frame2, text="actualise",command = self.refresh).pack()
         Button(self.frame2, text="retour",command = self.retour).pack()
@@ -154,23 +154,45 @@ class Lecture(Frame):
 
 
     def organisation_erreur(self):
+
         taille_max=self.frame1.winfo_width()
-        collone=-1
+        longueur_actuelle=0
+        hauteur_actuelle=0
         ligne=0
-        compte=0
+        marge=10
         for i in range(len(self.liste_erreur)):
             self.liste_erreur[i].placement() #on le place une fois pour qu'il est une taille (pour pouvoir récupé cette taille et calculer l'espace qu'il prend)
-            compte+=self.liste_erreur[i].get_taille()
-            print(compte,taille_max)
-            if (compte>=taille_max):
-                collone=0
-                ligne+=1
-                compte=0
+
+            longueur=self.liste_erreur[i].get_longueur()
+            hauteur=self.liste_erreur[i].get_hauteur()
+
+            if longueur_actuelle == 0 :
+                longueur_actuelle=longueur + marge
+                self.liste_erreur[i]._x = 0
             else:
-                collone+=1
-            print(ligne,collone)
-            self.liste_erreur[i]._l=ligne
-            self.liste_erreur[i]._c=collone
+                if longueur_actuelle + longueur <= taille_max:
+                    self.liste_erreur[i]._x = longueur_actuelle
+                    longueur_actuelle+=longueur+marge
+                else:
+                    longueur_actuelle=0
+                    self.liste_erreur[i]._x = longueur_actuelle
+                    longueur_actuelle+=longueur+marge
+                    ligne+=1
+
+            if hauteur_actuelle == 0 :
+                hauteur_actuelle = hauteur
+            else:
+                if hauteur>=hauteur_actuelle:
+                    hauteur_actuelle=hauteur
+
+                self.liste_erreur[i]._y=(hauteur_actuelle*ligne)
+                if self.liste_erreur[i]._y!=0:
+                    self.liste_erreur[i]._y+=marge
+                if self.liste_erreur[i]._x != 0:
+                    if hauteur > self.liste_erreur[i-1].get_hauteur() and (longueur_actuelle + self.liste_erreur[i+1].get_longueur())<taille_max:
+                        self.liste_erreur[i]._y = self.liste_erreur[i-1]._y
+            print("hauteur actuelle",hauteur_actuelle)
+            print("y liste",self.liste_erreur[i]._y)
             self.liste_erreur[i].placement()
 
     def grid_pack(self):#position chaque fram
@@ -207,6 +229,11 @@ class Lecture(Frame):
         return int(((largeur/Nboutton)//(PAD+DIM)))
 
     def calcule_points(self):
+        try:
+            for element in self.frame1.winfo_children():
+                element.destroy()
+        except:
+            pass
         self.liste_erreur=[]
         document = etree.parse(self.lecture)
         for i in range(len(self.liste_boutton)):#liste_boutton =[[a,b,c],[a,b,c],[a,b,c]]

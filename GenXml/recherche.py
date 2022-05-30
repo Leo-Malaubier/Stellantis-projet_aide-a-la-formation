@@ -31,8 +31,8 @@ class Recherche:
 
     def __init__(self,xml):
         self._logger.info("la recherche ce lance")
-        self.emplacement_fichier="../../fichier_cours/"
-        emplacement_fichier_xml="../../fichier_cours/xml/"
+        self.emplacement_fichier="../fichier_cours/"
+        emplacement_fichier_xml="../fichier_cours/xml/"
         filename=None
         if xml == None:
             filename = filedialog.askopenfilename(initialdir = self.emplacement_fichier,title = "Select a File",filetypes = (("Text files","*.xlsx*"),("Text files","*.csv*"),("all files","*.*")))

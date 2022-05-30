@@ -5,7 +5,7 @@
 import pandas as pd
 import os
 
-emplacement_fichier="../../fichier_cours/"
+emplacement_fichier="../fichier_cours/"
 
 def csv_to_excel(file):
     nomSimple=file.split("/")[-1]

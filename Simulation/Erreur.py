@@ -12,8 +12,8 @@ class Erreur:
         self._nom_parent=""
         self._commentaire=[]
         self._parent=pere
-        self._c=0 #collone
-        self._l=0#ligne
+        self._x=0 #collone
+        self._y=0#ligne
 
         self.bg_color="#FFFFFF"
 
@@ -35,8 +35,8 @@ class Erreur:
             self._label=Label(self.label_frame_Fils,text=self._commentaire[i],bg=self.bg_color).pack()
 
     def placement(self):
-        #print(self._c,self._l)
-        self.label_frame.grid(column=self._c,row=self._l)
+        #print(self._x,self._y)
+        self.label_frame.place(x=self._x,y=self._y)
 
 
     def set_couleur_erreur(self,couleur): #prend un caractère
@@ -51,10 +51,13 @@ class Erreur:
     def set_parent(self,nom):
         self._nom_parent=nom
 
-    def get_taille(self): #la taille ne peux être aquise que si l'objet a été créer (avec la affichage)
+    def get_longueur(self): #la taille ne peux être aquise que si l'objet a été créer (avec la affichage)
         self.label_frame.update_idletasks()
         return self.label_frame.winfo_width()
 
+    def get_hauteur(self): #la taille ne peux être aquise que si l'objet a été créer (avec la affichage)
+        self.label_frame.update_idletasks()
+        return self.label_frame.winfo_height()
 
 #creation set a véritablement créer et mettre les information de l'erreur.
 #la classe a cette forme car elle doit être amélioré pour que l'on puisse modifier l'affichage au lieux de créer les erreur puis les supprimer pour en refaire.

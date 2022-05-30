@@ -3,7 +3,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-emplacement_fichier="../../fichier_cours/"
+emplacement_fichier="../fichier_cours/"
 
 
 def verification():

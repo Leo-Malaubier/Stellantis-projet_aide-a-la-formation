@@ -28,7 +28,7 @@ except:
 #--------------------------------------------------------------------------------------------
 
 class Page_chargement(Frame):
-    
+
     _logger = logging.getLogger()
     NomCLASS= "Page_chargement"
 
@@ -56,7 +56,7 @@ class Page_chargement(Frame):
         self.liste=[]#liste comptenue du treeview
         self.treeviewActualise()
 
-        self.emplacement_fichier="../../fichier_cours/"
+        self.emplacement_fichier="../fichier_cours/"
 
 
     def treeviewActualise(self):
