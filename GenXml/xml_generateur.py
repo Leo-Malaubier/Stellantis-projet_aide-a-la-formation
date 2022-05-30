@@ -2,12 +2,39 @@
 # -*- coding: utf-8 -*-
 import GenXml.Lecture_Settings
 import GenXml.Lecture_Donnee
+import logging
+import verififaction_file_log
+
+
+dossier="xml_generateur"
+fichier_log="log/log.log"
+
+#--------------------------------------------------------------------------------------------
+try:
+    logging.basicConfig(filename=fichier_log, level=logging.DEBUG,
+                            format='%(asctime)s - %(levelname)s:%(message)s')
+except:
+    verififaction_file_log.verification_file()
+    logging.basicConfig(filename=fichier_log, level=logging.DEBUG,
+                            format='%(asctime)s - %(levelname)s:%(message)s')
+    logging.warning("les log n'existais pas et on été créer a partir de ajout_cours.py")
+#--------------------------------------------------------------------------------------------
+
+
+_logger = logging.getLogger()
+_logger.info("--------xml_generateur-----------")
+
+
+
 def generationXML(fichier):
+
     def verif(id):
         if id==2 or id==8:
             return "orange"
         else:
             return "green"
+
+
     def determine(i,id):
         if ((id>=0 and id<=1) or
         (id>=9 and id <=10)):
@@ -29,7 +56,8 @@ def generationXML(fichier):
                 value=id-5
                 return (str(value),verif(id))
 
-        print(tableau_indice[i])
+        _logger.debug(tableau_indice[i])
+
 
 
     NomSimple=fichier.split('/')[-1]
@@ -45,17 +73,18 @@ def generationXML(fichier):
         tableau_tabPrincipale=GenXml.Lecture_Donnee.lecture_fueilles_xlsx(fichier,parametres._tabPrincipale)
         tableau_indice=GenXml.Lecture_Donnee.lecture_fueilles_xlsx(fichier,parametres._indice)
 
-    print(tableau_etape)
-    print(len(tableau_etape))
-    print("--------------")
-    print(tableau_etapePrecision)
-    print(len(tableau_etapePrecision))
-    print("--------------")
-    print(tableau_tabPrincipale)
-    print(len(tableau_tabPrincipale))
-    print("--------------")
-    print(tableau_indice)
-    print(len(tableau_indice))
+    _logger.debug(tableau_etape)
+    _logger.debug(len(tableau_etape))
+    _logger.debug("--------------")
+    _logger.debug(tableau_etapePrecision)
+    _logger.debug(len(tableau_etapePrecision))
+    _logger.debug("--------------")
+    _logger.debug(tableau_tabPrincipale)
+    _logger.debug(len(tableau_tabPrincipale))
+    _logger.debug("--------------")
+    _logger.debug(tableau_indice)
+    _logger.debug(len(tableau_indice))
+
     file = open("../../fichier_cours/xml/"+NomSimple.split('.')[0]+".xml","w")
     parent=""
     vari=0
@@ -79,7 +108,7 @@ def generationXML(fichier):
 
         if isinstance(tableau_etape[i][0],str):
             id=0
-            print(tableau_tabPrincipale[i])
+            _logger.info(tableau_tabPrincipale[i])
             for j in range(len(tableau_tabPrincipale[i])):
                 Titre=[]
                 commentaire=[]
@@ -88,7 +117,7 @@ def generationXML(fichier):
                 variable=""
                 if isinstance(tableau_tabPrincipale[i][j],str):#on ne veux pas les nan qui sont des float (case vide)
                     for k in range(len(str(tableau_tabPrincipale[i][j]))):
-                        #print(str(tableau_tabPrincipale[i][j][k]))
+                        _logger.info(str(tableau_tabPrincipale[i][j][k]))
                         if variable=="":
                             if tableau_tabPrincipale[i][j][k]=="#":
                                 variable="commentaire"
@@ -102,7 +131,7 @@ def generationXML(fichier):
                             else:
                                 variable="titre"
                                 Titre.append(tableau_tabPrincipale[i][j][k])
-                                print(Titre)
+                                _logger.info(Titre)
                                 nTitre+=1
 
                         else:
@@ -127,10 +156,10 @@ def generationXML(fichier):
                                 variable=""
                             elif variable=="titre":
                                 Titre[len(Titre)-1]+=tableau_tabPrincipale[i][j][k]
-                                print(Titre)
+                                _logger.info(Titre)
                             elif variable=="commentaire":
                                 commentaire[len(commentaire)-1]+=tableau_tabPrincipale[i][j][k]
-                                print(commentaire)
+                                _logger.info(commentaire)
                     variable=""
                     if len(Titre)>0:
                         valeur_petit_fils=""

@@ -16,6 +16,7 @@ import logging
 import verififaction_file_log
 
 
+
 fichier_log="log/log.log"
 #--------------------------------------------------------------------------------------------
 try:
@@ -70,5 +71,6 @@ class ajout_cours(Frame):
             file.close()
             self._pere.switch(Simulation.xml_lecture.Lecture)
 
+            
     def retour(self):
         self._pere.switch(GenXml.Page_chargement.Page_chargement)

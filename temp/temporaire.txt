@@ -1,2 +1,2 @@
-../../fichier_cours/xml/CourN3.xml
-CourN3.xml
+../../fichier_cours/xml/Paramètres_TThperso.xml
+Paramètres_TThperso.xml

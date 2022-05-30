@@ -4,6 +4,26 @@
 
 import GenXml.FileExist
 import os
+import logging
+import verififaction_file_log
+
+
+emplacement_fichier="../../fichier_cours/"
+fichier_log="log/log.log"
+#--------------------------------------------------------------------------------------------
+try:
+    logging.basicConfig(filename=fichier_log, level=logging.DEBUG,
+                            format='%(asctime)s - %(levelname)s:%(message)s')
+except:
+    verififaction_file_log.verification_file()
+    logging.basicConfig(filename=fichier_log, level=logging.DEBUG,
+                            format='%(asctime)s - %(levelname)s:%(message)s')
+    logging.warning("les log n'existais pas et on été créer a partir de ajout_cours.py")
+#--------------------------------------------------------------------------------------------
+
+
+_logger = logging.getLogger()
+_logger.info("--------recherche-----------")
 def traitement(list,type_fichier):
     MALISTE=[]
     for i in range(len(list)):
@@ -14,30 +34,33 @@ def traitement(list,type_fichier):
             pass
     return MALISTE
 
+
 def rangement():
+
     liste=(os.listdir("../../fichier_cours"))
     Liste=[]
-    print(liste)
+    _logger.debug(liste)
 
     for i in range(len(liste)):
         try:
-            print(type(liste[i].split('.')[1]))
+            _logger.debug(type(liste[i].split('.')[1]))
             if isinstance(liste[i].split('.')[1],str)== True:
                 Liste.append(liste[i])
         except:
             pass
-    print(Liste)
+    _logger.debug(Liste)
     for i in range(len(Liste)):
-        src=r'../../fichier_cours/'+Liste[i]
+        src=emplacement_fichier+Liste[i]
         if Liste[i].split('.')[1]=='xlsx':
-            des=r'../../fichier_cours/xlsx/'+Liste[i]
+            des=emplacement_fichier+'xlsx/'+Liste[i]
             os.replace(src,des)
         if Liste[i].split('.')[1]=='csv':
-            des=r'../../fichier_cours/csv/'+Liste[i]
+            des=emplacement_fichier+'csv/'+Liste[i]
             os.replace(src,des)
         if Liste[i].split('.')[1]=='xml':
-            des=r'../../fichier_cours/xml/'+Liste[i]
+            des=emplacement_fichier+'xml/'+Liste[i]
             os.replace(src,des)
+
 
 def ListeFichier(emplacement,type_fichier): #liste de nom des fichiers
         if type_fichier=='rangement':
@@ -48,10 +71,11 @@ def ListeFichier(emplacement,type_fichier): #liste de nom des fichiers
             return traitement(list,type_fichier)
 
 
+
 def recherche_element():
     GenXml.FileExist.verification()
     ListeFichier('rangement','rangement')
-    xlsx=ListeFichier("../../fichier_cours/xlsx","xlsx")
-    csv=ListeFichier("../../fichier_cours/csv","csv")
-    xml=ListeFichier("../../fichier_cours/xml","xml")
+    xlsx=ListeFichier(emplacement_fichier+"xlsx","xlsx")
+    csv=ListeFichier(emplacement_fichier+"csv","csv")
+    xml=ListeFichier(emplacement_fichier+"xml","xml")
     return xlsx,csv,xml

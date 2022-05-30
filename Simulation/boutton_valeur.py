@@ -4,28 +4,64 @@
 
 from tkinter import *
 import math
+import logging
+import verififaction_file_log
+
+
+dossier="boutton_valeur"
+fichier_log="log/log.log"
+
+#--------------------------------------------------------------------------------------------
+try:
+    logging.basicConfig(filename=fichier_log, level=logging.DEBUG,
+                            format='%(asctime)s - %(levelname)s:%(message)s')
+except:
+    verififaction_file_log.verification_file()
+    logging.basicConfig(filename=fichier_log, level=logging.DEBUG,
+                            format='%(asctime)s - %(levelname)s:%(message)s')
+    logging.warning("les log n'existais pas et on été créer a partir de ajout_cours.py")
+
+#--------------------------------------------------------------------------------------------
+
+
 
 class Valeur(Frame):
+    logger = logging.getLogger()
     PAD=25 #marge pour que le cercle ne soit pas collé au bord du canvas
     DIM=80 #diamètre
+
+
     def __init__(self,pere):
-        super(Valeur,self).__init__()
+        self.logger.info("--------boutton_valeur-----------")
+
         self._value=0
-        self._Nom=""
-        #self._ID=0
-        self._parent=pere #fram parente
+        self._nom=""
+        self._id=0
+
+        self._parent=pere #frame parente
         self._c=0
         self._l=0
 
+
+        Frame.__init__(self,master=self._parent)
+
+        self.couleur_boutton="#DF9595"
+        self.couleur_background="#FFFFFF"
         self.WIDTH=self.DIM+self.PAD
         self.HEIGHT=self.DIM+self.PAD
+
         self.centre = (self.WIDTH//2, self.HEIGHT//2)#centre cercle
 
         self.nombre_valeur=11 #on a des valeur allant de 0 à 10
         self.angle_init=180 #angle plat pour que l'on affiche nos valeur dans la partie supérieur du create_rectangle
 
+        self.posi=0
+        self.coef=1.1
+
+
     def affichage(self):
-        Frame.__init__(self,master=self._parent)
+
+        #Frame.__init__(self,master=self._parent)
         self["width"]=100
         self["height"]=50
         self["bd"]=1
@@ -34,8 +70,8 @@ class Valeur(Frame):
         button=self.button()
         self.cnv.pack()
         self.position()
-        position=self.centre
-        self.cnv.create_text(position, anchor =W,text =self._Nom,fill ="black") #affichage nom boutton
+        self.posi=(0,self.WIDTH/self.coef)
+        self.cnv.create_text(self.posi, anchor =W,text =self._nom,fill ="black") #affichage nom boutton
 
 
     def position(self):
@@ -72,22 +108,28 @@ class Valeur(Frame):
             self._value=self._value
         else:
             self._value-=1
-        print("moins")
+        self.logger.debug("clique moins")
         self.cnv.itemconfig(self.text,text=str(self._value))
         self.ligne_modif()
 
     def creation(self,information):
-        self._Nom=information
-        #self._ID=id
+        self._id=information
+        #self._id=id
         self.affichage()
+
+    def set_nom(self,information):
+        if " " in information:
+            information=information.replace(" ","\n")
+            self.coef=1.2
+        self._nom=information
 
     def change_couleur(self,couleur):
         self.label_frame['bg']=couleur
 
 
     def button(self):
-        self.cnv = Canvas(self, width=self.WIDTH, height=self.HEIGHT, background="#FFFFFF")
-        def dot( R, color='red'):#canva, centre, rayon, couleur
+        self.cnv = Canvas(self, width=self.WIDTH, height=self.HEIGHT, background=self.couleur_background)
+        def dot( R, color=self.couleur_boutton):#canva, centre, rayon, couleur
             xC, yC=self.centre
             A=(xC-R, yC-R)#on calcule les point supérieur gauche et inférieur droit du carré dans le quelle le cercle rentre. (voir comment sont créer les cercle dans tkinter)
             B=(xC+R, yC+R)
@@ -109,13 +151,13 @@ class Valeur(Frame):
                 if i>=6:
                     y-=4
                 position=(x,y)
-                print("i dif 0/ voici x:"+str(x)+" et voici y:"+str(y)+" i="+str(i))
+                self.logger.info("i dif 0/ voici x:"+str(x)+" et voici y:"+str(y)+" i="+str(i))
                 self.cnv.create_text(position, anchor =W,text =i,fill ="black")
             else:#on évite la division et multiplication par 0
                 x=xC+R*math.cos(math.radians(i+180))
                 y=yC+R*math.sin(math.radians(i))
                 position=(x-10,y)
-                print("i == 0/ voici x:"+str(x)+" et voici y:"+str(y)+" i="+str(i))
+                self.logger.info("i == 0/ voici x:"+str(x)+" et voici y:"+str(y)+" i="+str(i))
                 self.cnv.create_text(position, anchor =W,text =i,fill ="black")
         self.text=self.cnv.create_text(self.centre,text="0")
         angle_inter_element=self.angle_init-self.angle_init/self.nombre_valeur*-0

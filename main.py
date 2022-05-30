@@ -7,6 +7,7 @@ import GenXml.Accueil
 import GenXml.Page_chargement
 import GenXml.ajout_cours
 import Simulation.xml_lecture
+import verififaction_file_log
 class MainClass(Tk): #InitFrame érite de toutes les méthodes de la classe tk
     def __init__(self):
         Tk.__init__(self) # nouvelle instante de Tk
@@ -36,15 +37,13 @@ class MainClass(Tk): #InitFrame érite de toutes les méthodes de la classe tk
 
 
 def main():
+    verififaction_file_log.verification_file()
     windows = MainClass()
     windows.title('Projet')
     windows.geometry("1000x800")
     #windows.attributes('-fullscreen', True)
+    windows.update_idletasks()
     windows.resizable(width=False, height=False)
     windows.config(background="#FFFFFF")
 
     windows.mainloop()
-    
-
-if __name__ == "__main__":
-    main.main()

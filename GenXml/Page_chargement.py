@@ -6,16 +6,34 @@ from tkinter import *
 from tkinter import messagebox #permet de faire des message d'alert
 from tkinter import ttk
 
-
 import GenXml.recherche
 import GenXml.xml_generateur
 import Simulation.xml_lecture
 import GenXml.recherche_element
-class Page_chargement(Frame):
 
+import logging
+import verififaction_file_log
+
+
+fichier_log="log/log.log"
+#--------------------------------------------------------------------------------------------
+try:
+    logging.basicConfig(filename=fichier_log, level=logging.DEBUG,
+                            format='%(asctime)s - %(levelname)s:%(message)s')
+except:
+    verififaction_file_log.verification_file()
+    logging.basicConfig(filename=fichier_log, level=logging.DEBUG,
+                            format='%(asctime)s - %(levelname)s:%(message)s')
+    logging.warning("les log n'existais pas et on été créer a partir de ajout_cours.py")
+#--------------------------------------------------------------------------------------------
+
+class Page_chargement(Frame):
+    
+    _logger = logging.getLogger()
     NomCLASS= "Page_chargement"
 
     def __init__(self, pere):
+        self._logger.info("--------Page_chargement-----------")
         Frame.__init__(self, pere)
 
         self._pere=pere
@@ -38,24 +56,26 @@ class Page_chargement(Frame):
         self.liste=[]#liste comptenue du treeview
         self.treeviewActualise()
 
+        self.emplacement_fichier="../../fichier_cours/"
 
 
     def treeviewActualise(self):
         xlsx,csv,xml=GenXml.recherche_element.recherche_element()
-        print(xlsx,"liste xlsx")
-        print(csv,"liste csv")
-        print(xml,"liste xml")
+        self._logger.info(str(xlsx))
+        self._logger.info(str(csv))
+        self._logger.info(str(xml))
         for i in xml:
             self.liste.append(i)
         for i in  range(len(csv)):
             self.activ(csv[i])
         for i in  range(len(xlsx)):
             self.activ(xlsx[i])
-        print(self.liste,"voici la liste sans traitement")
+        self._logger.info((self.liste,"voici la liste sans traitement"))
         if len(self.liste)==0:
             self.affiche_erreur("liste_vide")
         for i in range(len(self.liste)):
             self.treeview.insert(parent='', index=i,iid=i,values=(self.liste[i].split('.')[0]))
+
 
     def activ(self,a): #fonction déclanchement de la récursivité
         self.verif(a,self.liste,0)
@@ -68,7 +88,7 @@ class Page_chargement(Frame):
             return 'append'
         if len(b)-1 == val:
             if a.split('.')[0] != b[val].split('.')[0]:
-                print("apprendre")
+                self._logger.info("apprendre")
                 self.liste.append(a)
                 return 'append'
             else:
@@ -81,17 +101,17 @@ class Page_chargement(Frame):
 
     def execution(self,fichier_select):
         fichier_select=self.liste[int(fichier_select[0])]
-        print(fichier_select,"----------------> ici")
+        self._logger.debug(fichier_select)
         if fichier_select.split(".")[1]=="csv":
-            fichier_select="../../fichier_cours/csv/"+fichier_select
+            fichier_select=self.emplacement_fichier+"csv/"+fichier_select
             GenXml.xml_generateur.generationXML(fichier_select)
         if fichier_select.split(".")[1]=="xlsx":
-            fichier_select="../../fichier_cours/xlsx/"+fichier_select
+            fichier_select=self.emplacement_fichier+"xlsx/"+fichier_select
             GenXml.xml_generateur.generationXML(fichier_select)
         if fichier_select.split(".")[1]=="xml":
-            fichier_select="../../fichier_cours/xml/"+fichier_select
+            fichier_select=self.emplacement_fichier+"xml/"+fichier_select
         #génération xml
-        print(fichier_select,"----------------> LLLAA")
+        self._logger.debug(fichier_select,)
         return fichier_select
 
 
@@ -113,6 +133,8 @@ class Page_chargement(Frame):
             file.write(lien_fichier.split('/')[-1])
             file.close()
             self._pere.switch(Simulation.xml_lecture.Lecture)
+
+
 
     def affiche_erreur(self,type):
         try:

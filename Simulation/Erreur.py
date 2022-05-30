@@ -50,9 +50,10 @@ class Erreur:
 #voir si la méthode loop (mainloop) fonctionne correctement sur les éléments (il se peux que mainloop n'affecte pas correctement le widget, et de ce fait,
 # l'objet erreur n'est pas actualisé si l'on change des paramètre comme la couleur ou le message)
 #==> les problem vienne des focus. il fait définir les focus pour qu'il y es des modification.
+
     def creation(self,information):   #information = liste d'information en longueur=4 soit [0,1,2,3]
         self.set_couleur_erreur(information[0])#couleur
-        self.set_erreur(information[1])#erreur
+        self.set_erreur(information[1])#liste_erreur
         self.set_commentaire(information[2])#liste_commentaire
         self.set_parent(information[3])
         self.affichage()

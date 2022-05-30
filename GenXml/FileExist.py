@@ -3,15 +3,18 @@
 # -*- coding: utf-8 -*-
 
 import os
+emplacement_fichier="../../fichier_cours/"
+
+
 def verification():
-    if not os.path.exists('../../fichier_cours'):
-        os.makedirs('../../fichier_cours')
-    if not os.path.exists('../../fichier_cours/xml'):
-        os.makedirs('../../fichier_cours/xml')
-    if not os.path.exists('../../fichier_cours/xlsx'):
-        os.makedirs('../../fichier_cours/xlsx')
-    if not os.path.exists('../../fichier_cours/csv'):
-        os.makedirs('../../fichier_cours/csv')
-    if not os.path.exists('../../fichier_cours/parametres'):
-        os.makedirs('../../fichier_cours/parametres')
+    if not os.path.exists(emplacement_fichier):
+        os.makedirs(emplacement_fichier)
+    if not os.path.exists(emplacement_fichier+'xml'):
+        os.makedirs(emplacement_fichier+'xml')
+    if not os.path.exists(emplacement_fichier+'xlsx'):
+        os.makedirs(emplacement_fichier+'xlsx')
+    if not os.path.exists(emplacement_fichier+'csv'):
+        os.makedirs(emplacement_fichier+'csv')
+    if not os.path.exists(emplacement_fichier+'parametres'):
+        os.makedirs(emplacement_fichier+'parametres')
     return 'Done'
