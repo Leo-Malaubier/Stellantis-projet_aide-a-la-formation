@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Famille>
+	<Pere name="Chauffage">
+		<Fils name="Couplage">
+			<Petit_Fils id="0" titre_0="None" commentaire_0="Masse inducteur" value="eli" couleur="red"/>
+			<Petit_Fils id="1" titre_0="Brûlures (peau d'orange)" titre_1="Tapures" value="eli" couleur="red"/>
+			<Petit_Fils id="2" titre_0="None" commentaire_0="Grossissement de grain" value="3" couleur="orange"/>
+			<Petit_Fils id="3" titre_0="None" commentaire_0="La profondeur de trempe augmente" value="2" couleur="green"/>
+			<Petit_Fils id="4" titre_0="None" commentaire_0="None" value="1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" titre_0="None" commentaire_0="La profondeur de trempe diminue" value="-1" couleur="green"/>
+			<Petit_Fils id="7" titre_0="None" commentaire_0="La profondeur de trempe diminue" value="-2" couleur="green"/>
+			<Petit_Fils id="8" titre_0="None" commentaire_0="La dureté de surface diminue" value="-3" couleur="orange"/>
+			<Petit_Fils id="9" titre_0="None" commentaire_0="La dureté de surface inférieur au minimum demandé" value="eli" couleur="red"/>
+			<Petit_Fils id="10" titre_0="None" commentaire_0="Absence de trempe" value="eli" couleur="red"/>
+		</Fils>
+		<Fils name="Puissance">
+			<Petit_Fils id="0" titre_0="None" commentaire_0="Absence de trempe" value="eli" couleur="red"/>
+			<Petit_Fils id="1" titre_0="None" commentaire_0="La dureté de surface diminue" value="eli" couleur="red"/>
+			<Petit_Fils id="2" titre_0="None" commentaire_0="La profondeur inférieur au minimum demandé" value="-3" couleur="orange"/>
+			<Petit_Fils id="3" titre_0="None" commentaire_0="La profondeur de trempe diminue" value="-2" couleur="green"/>
+			<Petit_Fils id="4" titre_0="None" commentaire_0="None" value="-1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" titre_0="None" commentaire_0="La profondeur de trempe augmente" value="1" couleur="green"/>
+			<Petit_Fils id="7" titre_0="None" commentaire_0="La profondeur de trempe augmente" value="2" couleur="green"/>
+			<Petit_Fils id="8" titre_0="None" commentaire_0="Grossissement de grain" value="3" couleur="orange"/>
+			<Petit_Fils id="9" titre_0="Brûlures" titre_1="Tapures" value="eli" couleur="red"/>
+			<Petit_Fils id="10" titre_0="None" commentaire_0="Masse inducteur par fonte de la pièce" value="eli" couleur="red"/>
+		</Fils>
+		<Fils name="Temps">
+			<Petit_Fils id="0" titre_0="None" commentaire_0="Absence de trempe" value="eli" couleur="red"/>
+			<Petit_Fils id="1" titre_0="None" commentaire_0="La dureté de surface diminue" value="eli" couleur="red"/>
+			<Petit_Fils id="2" titre_0="None" commentaire_0="La profondeur inférieur au minimum demandé" value="-3" couleur="orange"/>
+			<Petit_Fils id="3" titre_0="None" commentaire_0="La profondeur de trempe diminue" value="-2" couleur="green"/>
+			<Petit_Fils id="4" titre_0="None" commentaire_0="None" value="-1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" titre_0="None" commentaire_0="La profondeur de trempe augmente" value="1" couleur="green"/>
+			<Petit_Fils id="7" titre_0="None" commentaire_0="La profondeur de trempe augmente" value="2" couleur="green"/>
+			<Petit_Fils id="8" titre_0="None" commentaire_0="Grossissement de grain" value="3" couleur="orange"/>
+			<Petit_Fils id="9" titre_0="Brûlures" titre_1="Tapures" value="eli" couleur="red"/>
+			<Petit_Fils id="10" titre_0="None" commentaire_0="Masse inducteur par fonte de la pièce" value="eli" couleur="red"/>
+		</Fils>
+	</Pere>
+	<Pere name="Douche principale">
+		<Fils name="retard">
+			<Petit_Fils id="0" titre_0="Pastilles" commentaire_0="Absence de trempe" value="eli" couleur="red"/>
+			<Petit_Fils id="1" titre_0="Plages douces" commentaire_0="La dureté de surface inférieur au minimum demandé" value="eli" couleur="red"/>
+			<Petit_Fils id="2" titre_0="None" commentaire_0="La dureté de surface diminue" value="3" couleur="orange"/>
+			<Petit_Fils id="3" titre_0="None" commentaire_0="La profondeur de trempe augmente" value="2" couleur="green"/>
+			<Petit_Fils id="4" titre_0="None" commentaire_0="None" value="1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" titre_0="None" commentaire_0="La profondeur de trempe diminue" value="-1" couleur="green"/>
+			<Petit_Fils id="7" titre_0="None" commentaire_0="La profondeur de trempe diminue" value="-2" couleur="green"/>
+			<Petit_Fils id="8" titre_0="None" commentaire_0="La dureté de surface diminue" value="-3" couleur="orange"/>
+			<Petit_Fils id="9" titre_0="Plages douces" commentaire_0="La dureté de surface inférieur au minimum demandé" value="eli" couleur="red"/>
+			<Petit_Fils id="10" titre_0="None" commentaire_0="Absence de trempe" value="eli" couleur="red"/>
+		</Fils>
+		<Fils name="temps">
+			<Petit_Fils id="0" titre_0="None" commentaire_0="Absence de trempe" value="eli" couleur="red"/>
+			<Petit_Fils id="1" titre_0="Autorevenu" commentaire_0="La dureté de surface inférieur au minimum demandé" value="eli" couleur="red"/>
+			<Petit_Fils id="2" titre_0="Autorevenu" commentaire_0="La dureté de surface diminue" value="-3" couleur="orange"/>
+			<Petit_Fils id="3" titre_0="None" commentaire_0="Pièce plus chaude" value="-2" couleur="green"/>
+			<Petit_Fils id="4" titre_0="None" commentaire_0="None" value="-1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" titre_0="None" commentaire_0="Pièce plus froide" value="1" couleur="green"/>
+			<Petit_Fils id="7" titre_0="None" commentaire_0="Pièce plus froide" value="2" couleur="green"/>
+			<Petit_Fils id="8" titre_0="None" commentaire_0="Perte de temps" value="3" couleur="orange"/>
+			<Petit_Fils id="9" titre_0="None" commentaire_0="None" value="eli" couleur="red"/>
+			<Petit_Fils id="10" titre_0="None" commentaire_0="None" value="eli" couleur="red"/>
+		</Fils>
+		<Fils name="pression">
+			<Petit_Fils id="0" titre_0="None" commentaire_0="Absence de trempe" value="eli" couleur="red"/>
+			<Petit_Fils id="1" titre_0="Autorevenu localisé" commentaire_0="La dureté de surface inférieur au minimum demandé" commentaire_1="Zone non tempée possible" value="eli" couleur="red"/>
+			<Petit_Fils id="2" titre_0="Autorevenu localisé" commentaire_0="La dureté de surface diminue" value="3" couleur="orange"/>
+			<Petit_Fils id="3" titre_0="None" commentaire_0="Moins d'éclaboussures" value="2" couleur="green"/>
+			<Petit_Fils id="4" titre_0="None" commentaire_0="None" value="1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" titre_0="None" commentaire_0="Plus d'éclaboussures" value="-1" couleur="green"/>
+			<Petit_Fils id="7" titre_0="None" commentaire_0="Plus d'éclaboussures" value="-2" couleur="green"/>
+			<Petit_Fils id="8" titre_0="None" commentaire_0="La dureté de surface diminue" value="-3" couleur="orange"/>
+			<Petit_Fils id="9" titre_0="Plage douce (au défilé)" commentaire_0="La dureté de surface inférieur au minimum demandé" commentaire_1="Zone non tempée possible" value="eli" couleur="red"/>
+			<Petit_Fils id="10" titre_0="Pastilles (retour d'eau)" commentaire_0="Absence de trempe" value="eli" couleur="red"/>
+		</Fils>
+	</Pere>
+	<Pere name="Douche additive">
+		<Fils name="retard">
+			<Petit_Fils id="0" titre_0="None" commentaire_0="None" value="eli" couleur="red"/>
+			<Petit_Fils id="1" titre_0="None" commentaire_0="None" value="eli" couleur="red"/>
+			<Petit_Fils id="2" titre_0="None" commentaire_0="None" value="-3" couleur="orange"/>
+			<Petit_Fils id="3" titre_0="None" commentaire_0="None" value="-2" couleur="green"/>
+			<Petit_Fils id="4" titre_0="None" commentaire_0="None" value="-1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" titre_0="None" commentaire_0="None" value="1" couleur="green"/>
+			<Petit_Fils id="7" titre_0="None" commentaire_0="None" value="2" couleur="green"/>
+			<Petit_Fils id="8" titre_0="Autorevenu" commentaire_0="La dureté de surface diminue" value="3" couleur="orange"/>
+			<Petit_Fils id="9" titre_0="Autorevenu" commentaire_0="La dureté de surface inférieur au minimum demandé" value="eli" couleur="red"/>
+			<Petit_Fils id="10" titre_0="None" commentaire_0="None" value="eli" couleur="red"/>
+		</Fils>
+		<Fils name="temps">
+			<Petit_Fils id="0" titre_0="None" commentaire_0="None" value="eli" couleur="red"/>
+			<Petit_Fils id="1" titre_0="Autorevenu" commentaire_0="La dureté de surface inférieur au minimum demandé" value="eli" couleur="red"/>
+			<Petit_Fils id="2" titre_0="Autorevenu" commentaire_0="La dureté de surface diminue" value="3" couleur="orange"/>
+			<Petit_Fils id="3" titre_0="None" commentaire_0="Pièce plus chaude" value="2" couleur="green"/>
+			<Petit_Fils id="4" titre_0="None" commentaire_0="None" value="1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" titre_0="None" commentaire_0="Pièce plus froide" value="-1" couleur="green"/>
+			<Petit_Fils id="7" titre_0="None" commentaire_0="Pièce plus froide" value="-2" couleur="green"/>
+			<Petit_Fils id="8" titre_0="None" commentaire_0="Perte de temps" value="-3" couleur="orange"/>
+			<Petit_Fils id="9" titre_0="None" commentaire_0="None" value="eli" couleur="red"/>
+			<Petit_Fils id="10" titre_0="None" commentaire_0="None" value="eli" couleur="red"/>
+		</Fils>
+		<Fils name="pression">
+			<Petit_Fils id="0" titre_0="Autorevenu" commentaire_0="La dureté de surface inférieur au minimum demandé" value="eli" couleur="red"/>
+			<Petit_Fils id="1" titre_0="Autorevenu localisé" commentaire_0="La dureté de surface inférieur au minimum demandé" value="eli" couleur="red"/>
+			<Petit_Fils id="2" titre_0="Autorevenu localisé" commentaire_0="La dureté de surface diminue" value="3" couleur="orange"/>
+			<Petit_Fils id="3" titre_0="None" commentaire_0="Moins d'éclaboussures" value="2" couleur="green"/>
+			<Petit_Fils id="4" titre_0="None" commentaire_0="None" value="1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" titre_0="None" commentaire_0="Plus d'éclaboussures" value="-1" couleur="green"/>
+			<Petit_Fils id="7" titre_0="None" commentaire_0="Plus d'éclaboussures" value="-2" couleur="green"/>
+			<Petit_Fils id="8" titre_0="Autorevenu localisé" commentaire_0="La dureté de surface diminue" value="-3" couleur="orange"/>
+			<Petit_Fils id="9" titre_0="Autorevenu localisé" commentaire_0="La dureté de surface inférieur au minimum demandé" value="eli" couleur="red"/>
+			<Petit_Fils id="10" titre_0="None" commentaire_0="None" value="eli" couleur="red"/>
+		</Fils>
+	</Pere>
+	<Pere name="liquide de refroidissement">
+		<Fils name="température">
+			<Petit_Fils id="0" titre_0="None" commentaire_0="None" value="eli" couleur="red"/>
+			<Petit_Fils id="1" titre_0="Tapures" value="eli" couleur="red"/>
+			<Petit_Fils id="2" titre_0="None" commentaire_0="la dureté augmente" value="-3" couleur="orange"/>
+			<Petit_Fils id="3" titre_0="None" commentaire_0="None" value="-2" couleur="green"/>
+			<Petit_Fils id="4" titre_0="None" commentaire_0="None" value="-1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" titre_0="None" commentaire_0="None" value="1" couleur="green"/>
+			<Petit_Fils id="7" titre_0="None" commentaire_0="la dureté diminue" value="2" couleur="green"/>
+			<Petit_Fils id="8" titre_0="Autorevenu" commentaire_0="La dureté de surface diminue" value="3" couleur="orange"/>
+			<Petit_Fils id="9" titre_0="Autorevenu" commentaire_0="La dureté de surface inférieur au minimum demandé" value="eli" couleur="red"/>
+			<Petit_Fils id="10" titre_0="None" commentaire_0="None" value="eli" couleur="red"/>
+		</Fils>
+		<Fils name="concentration d'additif">
+			<Petit_Fils id="0" titre_0="Tapures" value="eli" couleur="red"/>
+			<Petit_Fils id="1" titre_0="Tapures" value="eli" couleur="red"/>
+			<Petit_Fils id="2" titre_0="None" commentaire_0="la dureté augmente" value="-3" couleur="orange"/>
+			<Petit_Fils id="3" titre_0="None" commentaire_0="None" value="-2" couleur="green"/>
+			<Petit_Fils id="4" titre_0="None" commentaire_0="None" value="-1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" titre_0="None" commentaire_0="None" value="1" couleur="green"/>
+			<Petit_Fils id="7" titre_0="None" commentaire_0="la dureté diminue" value="2" couleur="green"/>
+			<Petit_Fils id="8" titre_0="Autorevenu" commentaire_0="La dureté de surface diminue" value="3" couleur="orange"/>
+			<Petit_Fils id="9" titre_0="Autorevenu" commentaire_0="La dureté de surface inférieur au minimum demandé" value="eli" couleur="red"/>
+			<Petit_Fils id="10" titre_0="None" commentaire_0="Consommation inutile d'additif" value="eli" couleur="red"/>
+		</Fils>
+	</Pere>
+</Famille>

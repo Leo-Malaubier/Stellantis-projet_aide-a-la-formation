@@ -1,0 +1,45 @@
+Unnamed: 0,Unnamed: 1,0,1,2,3,4,5,6,7,8,9,10,Unnamed: 13
+Chauffage,Couplage,#Masse inducteur,"Brûlures (peau d'orange)
+Tapures",#Grossissement de grain,#La profondeur de trempe augmente,,,#La profondeur de trempe diminue,#La profondeur de trempe diminue,#La dureté de surface diminue,#La dureté de surface < au minimum demandé,#Absence de trempe,'-
+Chauffage,Puissance,#Absence de trempe,#La dureté de surface diminue,#La profondeur < au minimum demandé,#La profondeur de trempe diminue,,,#La profondeur de trempe augmente,#La profondeur de trempe augmente,#Grossissement de grain,"Brûlures
+Tapures",#Masse inducteur par fonte de la pièce,'+
+Chauffage,Temps,#Absence de trempe,#La dureté de surface diminue,#La profondeur < au minimum demandé,#La profondeur de trempe diminue,,,#La profondeur de trempe augmente,#La profondeur de trempe augmente,#Grossissement de grain,"Brûlures
+Tapures",#Masse inducteur par fonte de la pièce,'+
+,nombre de sprires,,,,#La profondeur de trempe diminue,,,#La profondeur de trempe augmente,#La profondeur de trempe augmente,,,,
+,Fréquence,,,,#La profondeur de trempe augmente,,,#La profondeur de trempe diminue,#La profondeur de trempe diminue,,,,
+Douche principale,retard,"Pastilles
+#Absence de trempe","Plages douces
+#La dureté de surface < au minimum demandé",#La dureté de surface diminue,#La profondeur de trempe augmente,,,#La profondeur de trempe diminue,#La profondeur de trempe diminue,#La dureté de surface diminue,"Plages douces
+#La dureté de surface < au minimum demandé",#Absence de trempe,'-
+Douche principale,temps,#Absence de trempe,"Autorevenu
+#La dureté de surface < au minimum demandé","Autorevenu
+#La dureté de surface diminue",#Pièce plus chaude,,,#Pièce plus froide,#Pièce plus froide,#Perte de temps,,,'+
+Douche principale,pression,#Absence de trempe,"Autorevenu localisé
+#La dureté de surface < au minimum demandé
+#Zone non tempée possible","Autorevenu localisé
+#La dureté de surface diminue",#Moins d'éclaboussures,,,#Plus d'éclaboussures,#Plus d'éclaboussures,#La dureté de surface diminue,"Plage douce (au défilé)
+#La dureté de surface < au minimum demandé
+#Zone non tempée possible","Pastilles (retour d'eau)
+#Absence de trempe",'-
+Douche additive,retard,,,,,,,,,"Autorevenu
+#La dureté de surface diminue","Autorevenu
+#La dureté de surface < au minimum demandé",,'+
+Douche additive,temps,,"Autorevenu
+#La dureté de surface < au minimum demandé","Autorevenu
+#La dureté de surface diminue",#Pièce plus chaude,,,#Pièce plus froide,#Pièce plus froide,#Perte de temps,,,'-
+Douche additive,pression,"Autorevenu
+#La dureté de surface < au minimum demandé","Autorevenu localisé
+#La dureté de surface < au minimum demandé","Autorevenu localisé
+#La dureté de surface diminue",#Moins d'éclaboussures,,,#Plus d'éclaboussures,#Plus d'éclaboussures,"Autorevenu localisé
+#La dureté de surface diminue","Autorevenu localisé
+#La dureté de surface < au minimum demandé",,'-
+"liquide
+de
+refroidissement",température,,Tapures,#la dureté augmente,,,,,#la dureté diminue,"Autorevenu
+#La dureté de surface diminue","Autorevenu
+#La dureté de surface < au minimum demandé",,'+
+"liquide
+de
+refroidissement",concentration d'additif,Tapures,Tapures,#la dureté augmente,,,,,#la dureté diminue,"Autorevenu
+#La dureté de surface diminue","Autorevenu
+#La dureté de surface < au minimum demandé",#Consommation inutile d'additif,'+
