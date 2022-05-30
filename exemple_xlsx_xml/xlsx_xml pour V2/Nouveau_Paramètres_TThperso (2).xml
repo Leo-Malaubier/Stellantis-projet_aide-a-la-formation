@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Famille>
+	<Pere name="Chauffage">
+		<Fils name="Couplage">
+			<Petit_Fils id="0" valeur_0="C3" commentaire_0="Commentaires" value="eli" couleur="red"/>
+			<Petit_Fils id="1" valeur_0="P3" commentaire_0="Commentaires" value="eli" couleur="red"/>
+			<Petit_Fils id="2" valeur_0="P2" commentaire_0="Commentaires" value="-3" couleur="orange"/>
+			<Petit_Fils id="3" valeur_0="P1" commentaire_0="Commentaires" value="-2" couleur="orange"/>
+			<Petit_Fils id="4" valeur_0="P, H" commentaire_0="Commentaires" value="-1" couleur="green"/>
+			<Petit_Fils id="5" valeur_0="P=4;H=4" value="0" couleur="green"/>
+			<Petit_Fils id="6" valeur_0="P1,H2" commentaire_0="Commentaires" value="1" couleur="green"/>
+			<Petit_Fils id="7" valeur_0="P2,H2" commentaire_0="Commentaires" value="2" couleur="orange"/>
+			<Petit_Fils id="8" valeur_0="P3,H3" commentaire_0="Commentaires" value="3" couleur="orange"/>
+			<Petit_Fils id="9" valeur_0="P3,H4" commentaire_0="Commentaires" value="eli" couleur="red"/>
+			<Petit_Fils id="10" valeur_0="P3,H5" commentaire_0="Commentaires" value="eli" couleur="red"/>
+		</Fils>
+		<Fils name="Puissance">
+			<Petit_Fils id="0" valeur_0="P-3,H2" value="eli" couleur="red"/>
+			<Petit_Fils id="1" valeur_0="P-2,H1 " commentaire_0="un commentaire " video_0="video" value="eli" couleur="red"/>
+			<Petit_Fils id="2" valeur_0="P-1,H-1" value="-3" couleur="orange"/>
+			<Petit_Fils id="3" valeur_0="P1" value="-2" couleur="orange"/>
+			<Petit_Fils id="4" valeur_0="P1 " commentaire_0="Cmmentaires" video_0="video" image_0="image" value="-1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" valeur_0="P" value="1" couleur="green"/>
+			<Petit_Fils id="7" valeur_0="P,H" value="2" couleur="orange"/>
+			<Petit_Fils id="8" valeur_0="P,C" value="3" couleur="orange"/>
+			<Petit_Fils id="9" valeur_0="P,C" value="eli" couleur="red"/>
+			<Petit_Fils id="10" valeur_0="C" value="eli" couleur="red"/>
+		</Fils>
+		<Fils name="Temps">
+			<Petit_Fils id="0" valeur_0="P-3,H3" value="eli" couleur="red"/>
+			<Petit_Fils id="1" valeur_0="P-2,H2" value="eli" couleur="red"/>
+			<Petit_Fils id="2" valeur_0="P-1,H-2" value="-3" couleur="orange"/>
+			<Petit_Fils id="3" valeur_0="P1" value="-2" couleur="orange"/>
+			<Petit_Fils id="4" valeur_0="P-1" value="-1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" valeur_0="P2,H2" value="1" couleur="green"/>
+			<Petit_Fils id="7" valeur_0="P3,H4" value="2" couleur="orange"/>
+			<Petit_Fils id="8" valeur_0="P2,C3" value="3" couleur="orange"/>
+			<Petit_Fils id="9" valeur_0="P,C" value="eli" couleur="red"/>
+			<Petit_Fils id="10" valeur_0="C" commentaire_0="commentaire" value="eli" couleur="red"/>
+		</Fils>
+	</Pere>
+	<Pere name="Douche principale">
+		<Fils name="Couplage">
+			<Petit_Fils id="0" valeur_0="C3" commentaire_0="Commentaires" value="eli" couleur="red"/>
+			<Petit_Fils id="1" valeur_0="P3" commentaire_0="Commentaires" value="eli" couleur="red"/>
+			<Petit_Fils id="2" valeur_0="P2" commentaire_0="Commentaires" value="-3" couleur="orange"/>
+			<Petit_Fils id="3" valeur_0="P1" commentaire_0="Commentaires" value="-2" couleur="orange"/>
+			<Petit_Fils id="4" valeur_0="P, H" commentaire_0="Commentaires" value="-1" couleur="green"/>
+			<Petit_Fils id="5" valeur_0="P=8;H=3" value="0" couleur="green"/>
+			<Petit_Fils id="6" valeur_0="P1,H2" commentaire_0="Commentaires" value="1" couleur="green"/>
+			<Petit_Fils id="7" valeur_0="P2,H2" commentaire_0="Commentaires" value="2" couleur="orange"/>
+			<Petit_Fils id="8" valeur_0="P3,H3" commentaire_0="Commentaires" value="3" couleur="orange"/>
+			<Petit_Fils id="9" valeur_0="P3,H4" commentaire_0="Commentaires" value="eli" couleur="red"/>
+			<Petit_Fils id="10" valeur_0="P3,H5" commentaire_0="Commentaires" value="eli" couleur="red"/>
+		</Fils>
+		<Fils name="Puissance">
+			<Petit_Fils id="0" valeur_0="P-3,H2" value="eli" couleur="red"/>
+			<Petit_Fils id="1" valeur_0="P-2,H1 " commentaire_0="un commentaire " image_0="image" value="eli" couleur="red"/>
+			<Petit_Fils id="2" valeur_0="P-1,H-1" value="-3" couleur="orange"/>
+			<Petit_Fils id="3" valeur_0="P1" value="-2" couleur="orange"/>
+			<Petit_Fils id="4" valeur_0="P1 " commentaire_0="Cmmentaires" video_0="video" image_0="image" value="-1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" valeur_0="P" value="1" couleur="green"/>
+			<Petit_Fils id="7" valeur_0="P,H" value="2" couleur="orange"/>
+			<Petit_Fils id="8" valeur_0="P,C" value="3" couleur="orange"/>
+			<Petit_Fils id="9" valeur_0="P,C" value="eli" couleur="red"/>
+			<Petit_Fils id="10" valeur_0="C" value="eli" couleur="red"/>
+		</Fils>
+		<Fils name="Temps">
+			<Petit_Fils id="0" valeur_0="P-3,H3" value="eli" couleur="red"/>
+			<Petit_Fils id="1" valeur_0="P-2,H2" value="eli" couleur="red"/>
+			<Petit_Fils id="2" valeur_0="P-1,H-2" value="-3" couleur="orange"/>
+			<Petit_Fils id="3" valeur_0="P1" value="-2" couleur="orange"/>
+			<Petit_Fils id="4" valeur_0="P-1" value="-1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" valeur_0="P2,H2" value="1" couleur="green"/>
+			<Petit_Fils id="7" valeur_0="P3,H4" value="2" couleur="orange"/>
+			<Petit_Fils id="8" valeur_0="P2,C3" value="3" couleur="orange"/>
+			<Petit_Fils id="9" valeur_0="P,C" value="eli" couleur="red"/>
+			<Petit_Fils id="10" valeur_0="C" commentaire_0="commentaire" value="eli" couleur="red"/>
+		</Fils>
+	</Pere>
+	<Pere name="Douche additive">
+		<Fils name="Couplage">
+			<Petit_Fils id="0" valeur_0="C3" commentaire_0="Commentaires" value="eli" couleur="red"/>
+			<Petit_Fils id="1" valeur_0="P3" commentaire_0="Commentaires" value="eli" couleur="red"/>
+			<Petit_Fils id="2" valeur_0="P2" commentaire_0="Commentaires" value="-3" couleur="orange"/>
+			<Petit_Fils id="3" valeur_0="P1" commentaire_0="Commentaires" value="-2" couleur="orange"/>
+			<Petit_Fils id="4" valeur_0="P, H" commentaire_0="Commentaires" value="-1" couleur="green"/>
+			<Petit_Fils id="5" valeur_0="P=5;H=6" value="0" couleur="green"/>
+			<Petit_Fils id="6" valeur_0="P1,H2" commentaire_0="Commentaires" value="1" couleur="green"/>
+			<Petit_Fils id="7" valeur_0="P2,H2" commentaire_0="Commentaires" value="2" couleur="orange"/>
+			<Petit_Fils id="8" valeur_0="P3,H3" commentaire_0="Commentaires" value="3" couleur="orange"/>
+			<Petit_Fils id="9" valeur_0="P3,H4" commentaire_0="Commentaires" value="eli" couleur="red"/>
+			<Petit_Fils id="10" valeur_0="P3,H5" commentaire_0="Commentaires" value="eli" couleur="red"/>
+		</Fils>
+		<Fils name="Puissance">
+			<Petit_Fils id="0" valeur_0="P-3,H2" value="eli" couleur="red"/>
+			<Petit_Fils id="1" valeur_0="P-2,H1 " commentaire_0="un commentaire " video_0="video" value="eli" couleur="red"/>
+			<Petit_Fils id="2" valeur_0="P-1,H-1" value="-3" couleur="orange"/>
+			<Petit_Fils id="3" valeur_0="P1" value="-2" couleur="orange"/>
+			<Petit_Fils id="4" valeur_0="P1 " commentaire_0="Cmmentaires" video_0="video" image_0="image" value="-1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" valeur_0="P" value="1" couleur="green"/>
+			<Petit_Fils id="7" valeur_0="P,H" value="2" couleur="orange"/>
+			<Petit_Fils id="8" valeur_0="P,C" value="3" couleur="orange"/>
+			<Petit_Fils id="9" valeur_0="P,C" value="eli" couleur="red"/>
+			<Petit_Fils id="10" valeur_0="C" value="eli" couleur="red"/>
+		</Fils>
+		<Fils name="Temps">
+			<Petit_Fils id="0" valeur_0="P-3,H3" value="eli" couleur="red"/>
+			<Petit_Fils id="1" valeur_0="P-2,H2" value="eli" couleur="red"/>
+			<Petit_Fils id="2" valeur_0="P-1,H-2" value="-3" couleur="orange"/>
+			<Petit_Fils id="3" valeur_0="P1" value="-2" couleur="orange"/>
+			<Petit_Fils id="4" valeur_0="P-1" value="-1" couleur="green"/>
+			<Petit_Fils id="5" titre_0="None" commentaire_0="None" value="0" couleur="green"/>
+			<Petit_Fils id="6" valeur_0="P2,H2" value="1" couleur="green"/>
+			<Petit_Fils id="7" valeur_0="P3,H4" value="2" couleur="orange"/>
+			<Petit_Fils id="8" valeur_0="P2,C3" value="3" couleur="orange"/>
+			<Petit_Fils id="9" valeur_0="P,C" value="eli" couleur="red"/>
+			<Petit_Fils id="10" valeur_0="C" commentaire_0="commentaire" value="eli" couleur="red"/>
+		</Fils>
+	</Pere>
+</Famille>
