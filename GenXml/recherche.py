@@ -13,9 +13,9 @@ class Recherche:
         #print("la recherche ce lance")
         filename=None
         if xml == None:
-            filename = filedialog.askopenfilename(initialdir = "/",title = "Select a File",filetypes = (("Text files","*.xlsx*"),("Text files","*.csv*"),("all files","*.*")))
+            filename = filedialog.askopenfilename(initialdir = "../../fichier_cours/",title = "Select a File",filetypes = (("Text files","*.xlsx*"),("Text files","*.csv*"),("all files","*.*")))
         elif xml == "xml":
-            filename = filedialog.askopenfilename(initialdir = "/",title = "Select a File",filetypes = (("Text files","*.xml*"),("all files","*.*")))
+            filename = filedialog.askopenfilename(initialdir = "../../fichier_cours/xml/",title = "Select a File",filetypes = (("Text files","*.xml*"),("all files","*.*")))
 
         self.f= filename  #nom du fichier
         self.ConvertXlsxToCsv()
@@ -28,6 +28,6 @@ class Recherche:
             demande=messagebox.askquestion(title="Conversion xlsx to csv", message="Voulez vous convertir votre fichier "+self.NomSimple+"en fichier csv?")
             if demande == "yes" :
                 GenXml.converXlsx_to_csv.csv_to_excel(self.f)
-                self.f="csv/"+self.NomSimple.split(".")[0]+".csv"
+                self.f="../../fichier_cours/csv/"+self.NomSimple.split(".")[0]+".csv"
             if demande == "no" :
                 pass

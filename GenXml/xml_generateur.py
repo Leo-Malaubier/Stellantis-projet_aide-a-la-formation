@@ -56,7 +56,7 @@ def generationXML(fichier):
     print("--------------")
     print(tableau_indice)
     print(len(tableau_indice))
-    file = open("xml/"+NomSimple.split('.')[0]+".xml","w")
+    file = open("../../fichier_cours/xml/"+NomSimple.split('.')[0]+".xml","w")
     parent=""
     vari=0
 

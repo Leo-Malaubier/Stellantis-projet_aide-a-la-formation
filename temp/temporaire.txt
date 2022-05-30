@@ -1,2 +1,2 @@
-/home/leo/Bureau/logiciel/2022/logiciel/xml/Paramètres_TThperso.xml
-Paramètres_TThperso.xml
+../../fichier_cours/xml/CourN3.xml
+CourN3.xml

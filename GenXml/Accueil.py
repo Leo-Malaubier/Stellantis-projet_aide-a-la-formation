@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
+
 from tkinter import *
 import GenXml.Page_chargement
 import main
@@ -12,9 +16,11 @@ class Connexion(Frame):
 
         resultButton = Button(self, text = 'Démarrer la simulation',command=self.testLogin)
         resultButton.grid()
-
+        resultButton = Button(self, text = 'QCM',command=self.testLogin)
+        resultButton.grid()
         #supButton = Button(self.fra, text = 'sup',command=self.dest)
         #supButton.grid(column=1, row=2, pady=10)
+
 
 
     def testLogin(self): #connexion avec affichage des erreur

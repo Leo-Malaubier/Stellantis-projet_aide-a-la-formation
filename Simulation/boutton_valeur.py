@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
+
 from tkinter import *
 import math
 
@@ -27,11 +31,14 @@ class Valeur(Frame):
         self["bd"]=1
         self["relief"]=RAISED
 
-        self["bg"]="yellow"
-
         button=self.button()
-
         self.cnv.pack()
+        self.position()
+        position=self.centre
+        self.cnv.create_text(position, anchor =W,text =self._Nom,fill ="black") #affichage nom boutton
+
+
+    def position(self):
         self.grid(column=self._c,row=self._l)
 
     def ligne_modif(self):
@@ -75,11 +82,11 @@ class Valeur(Frame):
         self.affichage()
 
     def change_couleur(self,couleur):
-        self.label_frame['bg']='#F85532'
-        print(couleur)
+        self.label_frame['bg']=couleur
+
 
     def button(self):
-        self.cnv = Canvas(self, width=self.WIDTH, height=self.HEIGHT, background="blue")
+        self.cnv = Canvas(self, width=self.WIDTH, height=self.HEIGHT, background="#FFFFFF")
         def dot( R, color='red'):#canva, centre, rayon, couleur
             xC, yC=self.centre
             A=(xC-R, yC-R)#on calcule les point supérieur gauche et inférieur droit du carré dans le quelle le cercle rentre. (voir comment sont créer les cercle dans tkinter)

@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
+
 import pandas as pd
 import os
 import numpy as np
@@ -34,6 +38,6 @@ def lecture_fueilles_csv(monfichier,collones_lectures):
 
 def lecture_fueilles_xlsx(monfichier,collones_lectures):
     data=[]
-    temps=pd.read_excel(monfichier, usecols=collones_lectures)
+    temps=pd.read_excel(monfichier, usecols=collones_lectures)#engine='openpyxl'
     Np=temps.to_numpy()
     return Np
