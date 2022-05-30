@@ -40,8 +40,10 @@ def main():
     verififaction_file_log.verification_file()
     windows = MainClass()
     windows.title('Projet')
+
+    w, h = windows.winfo_screenwidth(), windows.winfo_screenheight()
+    #windows.geometry("%dx%d" % (w, h))
     windows.geometry("1000x800")
-    #windows.attributes('-fullscreen', True)
     windows.update_idletasks()
     windows.resizable(width=False, height=False)
     windows.config(background="#FFFFFF")

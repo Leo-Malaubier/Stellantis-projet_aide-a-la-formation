@@ -12,25 +12,31 @@ class Erreur:
         self._nom_parent=""
         self._commentaire=[]
         self._parent=pere
+        self._c=0 #collone
+        self._l=0#ligne
+
         self.bg_color="#FFFFFF"
 
+
     def affichage(self): #affichage les fonctions contenue dans affichage sont séparé de __init__ car l'on ne peux pas modifier les élément:
-                         #label_frame et canvas une fois qu'ils sont affiché
-        label_frame =LabelFrame(self._parent,width=100,height=50,bd=1,relief=RAISED,text=self._nom_parent,bg=self.bg_color)
-        label_frame.pack(side= LEFT)
+                         #self.label_frame et canvas une fois qu'ils sont affiché
+        self.label_frame =LabelFrame(self._parent,width=100,height=50,bd=1,relief=RAISED,text=self._nom_parent,bg=self.bg_color)
 
         nom=""
         for i in range(len(self._nom_erreur)):
                 nom+=self._nom_erreur[i]+"\n"
 
-        label_frame_Fils=LabelFrame(label_frame,text=nom,bg=self.bg_color)
-        canvas= Canvas(label_frame,bg=self._couleur_erreur,width=40,height=40)
+        self.label_frame_Fils=LabelFrame(self.label_frame,text=nom,bg=self.bg_color)
+        canvas= Canvas(self.label_frame,bg=self._couleur_erreur,width=40,height=40)
         canvas.pack(side=LEFT)
-        label_frame_Fils.pack(side=LEFT)
+        self.label_frame_Fils.pack(side=LEFT)
 
         for i in range(len(self._commentaire)):
-            self._label=Label(label_frame_Fils,text=self._commentaire[i],bg=self.bg_color).pack()
+            self._label=Label(self.label_frame_Fils,text=self._commentaire[i],bg=self.bg_color).pack()
 
+    def placement(self):
+        #print(self._c,self._l)
+        self.label_frame.grid(column=self._c,row=self._l)
 
 
     def set_couleur_erreur(self,couleur): #prend un caractère
@@ -45,6 +51,11 @@ class Erreur:
     def set_parent(self,nom):
         self._nom_parent=nom
 
+    def get_taille(self): #la taille ne peux être aquise que si l'objet a été créer (avec la affichage)
+        self.label_frame.update_idletasks()
+        return self.label_frame.winfo_width()
+
+
 #creation set a véritablement créer et mettre les information de l'erreur.
 #la classe a cette forme car elle doit être amélioré pour que l'on puisse modifier l'affichage au lieux de créer les erreur puis les supprimer pour en refaire.
 #voir si la méthode loop (mainloop) fonctionne correctement sur les éléments (il se peux que mainloop n'affecte pas correctement le widget, et de ce fait,
@@ -53,12 +64,13 @@ class Erreur:
 
     def creation(self,information):   #information = liste d'information en longueur=4 soit [0,1,2,3]
         self.set_couleur_erreur(information[0])#couleur
+        print(information[0])
         self.set_erreur(information[1])#liste_erreur
         self.set_commentaire(information[2])#liste_commentaire
         self.set_parent(information[3])
         self.affichage()
 """
-exemple d'utilisation
+#exemple d'utilisation :
 err=Erreur.Erreur(frame1)
 err.creation(["yellow",["erreur","erreur seconde"],["commentaire1","commentaire2"],"parent"])
 """

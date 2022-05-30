@@ -39,8 +39,8 @@ class Valeur(Frame):
         self._id=0
 
         self._parent=pere #frame parente
-        self._c=0
-        self._l=0
+        self._c=0 #collone
+        self._l=0#ligne
 
 
         Frame.__init__(self,master=self._parent)

@@ -13,4 +13,4 @@ def csv_to_excel(file):
     read_file.to_csv (emplacement_fichier+"csv/"+nomSimple.split('.')[0]+".csv",
                       index = None,
                       header=True)
-    df = pd.DataFrame(pd.read_csv(place+"csv/"+nomSimple.split('.')[0]+".csv"))
+    df = pd.DataFrame(pd.read_csv(emplacement_fichier+"csv/"+nomSimple.split('.')[0]+".csv"))
