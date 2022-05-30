@@ -60,7 +60,15 @@ def rangement():
         if Liste[i].split('.')[1]=='xml':
             des=emplacement_fichier+'xml/'+Liste[i]
             os.replace(src,des)
-
+        if Liste[i].split('.')[1]=='png':
+            des=emplacement_fichier+'image/'+Liste[i]
+            os.replace(src,des)
+        if Liste[i].split('.')[1]=='jpg':
+            des=emplacement_fichier+'image/'+Liste[i]
+            os.replace(src,des)
+        if Liste[i].split('.')[1]=='mp4':
+            des=emplacement_fichier+'video/'+Liste[i]
+            os.replace(src,des)
 
 def ListeFichier(emplacement,type_fichier): #liste de nom des fichiers
         if type_fichier=='rangement':
@@ -73,7 +81,7 @@ def ListeFichier(emplacement,type_fichier): #liste de nom des fichiers
 
 
 def recherche_element():
-    GenXml.FileExist.verification()
+    GenXml.FileExist.verification() #vérification si les fichier destination existe bien
     ListeFichier('rangement','rangement')
     xlsx=ListeFichier(emplacement_fichier+"xlsx","xlsx")
     csv=ListeFichier(emplacement_fichier+"csv","csv")

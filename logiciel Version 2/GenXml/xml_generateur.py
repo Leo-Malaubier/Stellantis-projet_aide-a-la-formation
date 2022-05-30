@@ -71,7 +71,7 @@ def generationXML(fichier):
         tableau_etapePrecision=GenXml.Lecture_Donnee.lecture_fueilles_xlsx(fichier,parametres._etapePrecision)
         tableau_tabPrincipale=GenXml.Lecture_Donnee.lecture_fueilles_xlsx(fichier,parametres._tabPrincipale)
         tableau_indice=GenXml.Lecture_Donnee.lecture_fueilles_xlsx(fichier,parametres._indice)
-
+    print(tableau_indice)
     _logger.debug(tableau_etape)
     _logger.debug(len(tableau_etape))
     _logger.debug("--------------")
@@ -123,7 +123,9 @@ def generationXML(fichier):
                     for k in range(len(str(tableau_tabPrincipale[i][j]))):
                         _logger.info(str(tableau_tabPrincipale[i][j][k]))
                         if variable=="":
-                            if tableau_tabPrincipale[i][j][k]==str(parametres._commentaireCase):
+                            if tableau_tabPrincipale[i][j][k]=="\xa0": #adaptation windows (peux provoqué des erreur de lecture du fichier xml)
+                                pass
+                            elif tableau_tabPrincipale[i][j][k]==str(parametres._commentaireCase):
                                 variable="commentaire"
                                 commentaire.append("")
                                 nCommentaire+=1
@@ -148,7 +150,9 @@ def generationXML(fichier):
                                 nTitre+=1
 
                         else:
-                            if tableau_tabPrincipale[i][j][k]==str(parametres._commentaireCase):
+                            if tableau_tabPrincipale[i][j][k]=="\xa0":
+                                pass
+                            elif tableau_tabPrincipale[i][j][k]==str(parametres._commentaireCase):
                                 variable="commentaire"
                                 commentaire.append("")
                                 nCommentaire+=1
@@ -187,6 +191,7 @@ def generationXML(fichier):
                             elif variable=="video":
                                 video[len(commentaire)-1]+=tableau_tabPrincipale[i][j][k]
                     variable=""
+                    print(Titre,commentaire,images,video)
                     if len(Titre)>0:
                         valeur_petit_fils=""
                         for z in range(len(Titre)):
@@ -230,5 +235,5 @@ def generationXML(fichier):
                     id+=1
             file.write('\t\t</Fils>\n')
     file.write('\t</Pere>\n')
-    file.write('</Famille>')
+    file.write('</Famille>\n')
     file.close()

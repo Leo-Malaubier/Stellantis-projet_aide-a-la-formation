@@ -137,8 +137,8 @@ class Valeur(Frame):
         R=self.DIM//2
         dot(R) #R= rayon
 
-        xC, yC=self.centre
-        for i in range(self.nombre_valeur):
+        xC, yC=self.centre #x,y du centre
+        for i in range(self.nombre_valeur): #i correspond au nombre de crant du boutton (plus ou moins)
             if i!=0:
                 angle_inter_element=self.angle_init-self.angle_init/self.nombre_valeur*-i
                 #angle_inter_element = self.angle_init - self.angle_init/self.nombre_valeur*i

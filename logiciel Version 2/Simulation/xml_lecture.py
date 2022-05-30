@@ -35,19 +35,42 @@ class Lecture(Frame):
         self._pere=pere
         Frame.__init__(self, pere)
 
+        self.parametres=GenXml.Lecture_Settings.settings()
+        print(self.parametres._indice)
 
         self.boutton=Simulation.boutton_valeur.Valeur(self._pere)
         self.boutton.pack()
 
         file=open("temp/temporaire.txt","r")
         ligne=file.readlines(0)
-
+        print(ligne)
         #lien complet du fichier(/!\ il peux y avoir un \n)
         try:
             self.lecture=ligne[1].split('\n')[0]
         except:
             self.lecture=ligne[1]
 
+        try:
+            self.chemain_complet_init=ligne[0].split('\n')[0]
+        except:
+            self.chemain_complet_init=ligne[0]
+        #print("le chemain",self.chemain_complet_init)
+        print("voila le split", self.chemain_complet_init.split('.')[-1])
+        print(ligne[0].split('\n')[0])
+        if self.chemain_complet_init.split('.')[-1]== "xml":
+            self.chemain_complet_init=self.chemain_complet_init.split(".")[0]
+            try:
+                with open(self.chemain_complet_init+".csv"): pass
+                self.chemain_complet_init+=".csv"
+            except:
+                try:
+                    with open(self.chemain_complet_init+".xlsx"): pass
+                    self.chemain_complet_init+=".xlsx"
+                except:
+                    print("fichier introuvable")
+        else:
+            print("le fichier n'est pas xml")
+        print("voila le fichier",self.chemain_complet_init)
         self.logger.debug((self.lecture,"lecture"))
         self.logger.debug((self.lecture.split(".")[1],"lecture avec split"))
 
@@ -59,6 +82,7 @@ class Lecture(Frame):
         else:
             self.lecture=emplacement_fichier_xml+ligne[1]
 
+
         self.affichage()
         self.organisation_bouton(None)
 
@@ -69,7 +93,8 @@ class Lecture(Frame):
         self.pack_propagate(False)
         self.pack(side=BOTTOM,fill=None, expand=False)
 
-
+        self.affichage_niveaux()
+        self.affichage_fils_frame2()
 
     def retour(self):
         self._pere.switch(GenXml.Accueil.Connexion)
@@ -87,10 +112,11 @@ class Lecture(Frame):
         self.frame2=LabelFrame(self,width=self._pere.winfo_width(),height=(self._pere.winfo_height()/3),text="frame2")
         self.frame3=LabelFrame(self,width=self._pere.winfo_width(),height=(self._pere.winfo_height()/3),text="frame3")
 
-        Button(self.frame1, text="actualise",command = self.refresh).pack()
-        Button(self.frame1, text="retour",command = self.retour).pack()
-        Button(self.frame1, text="print",command = self.affichage_niveaux).pack()
+        # Button(self.frame1, text="actualise",command = self.refresh).pack(side=LEFT)
+        Button(self.frame1, text="retour",command = self.retour).grid(row=0,column=0)
 
+        # Button(self.frame1, text="plus",command = self.plus).pack(side=LEFT)
+        # Button(self.frame1, text="moins",command = self.moins).pack(side=LEFT)
         self.liste_label_frame_pere=[]
         self.liste_boutton=[]
         self.logger.debug((self.lecture,"lecture du fichier (normalement xml)"))
@@ -116,6 +142,7 @@ class Lecture(Frame):
                 self.logger.info(fils)#nom fils
 
             self.liste_boutton.append(liste_temp_boutton)
+
         #liste d'objet boutton_valeur ou chaque objet a pour paramètre initiale sont père (une labelframe contenue dans une labelframe)
         #on a donc 3 frame (frame1,frame2,frame3)
         #qui contienne un nombre de labelframe (selon le nombre de père trouvé dans le xml)
@@ -123,8 +150,48 @@ class Lecture(Frame):
         #une liste (liste_boutton) d'objet boutton_valeur qui on pour parent un élément de la liste liste_label_frame_pere
         #la liste de boutton est sous un forme simulaire à: [[],[]]
 
+        # NomSimple=fichier.split('/')[-1]
+        # parametres=GenXml.Lecture_Settings.settings()
+        # if NomSimple.split('.')[1] == 'csv':
+        #     tableau_etape=GenXml.Lecture_Donnee.lecture_fueilles_csv(fichier,parametres._etape)
+        #     tableau_etapePrecision=GenXml.Lecture_Donnee.lecture_fueilles_csv(fichier,parametres._etapePrecision)
+        #     tableau_tabPrincipale=GenXml.Lecture_Donnee.lecture_fueilles_csv(fichier,parametres._tabPrincipale)
+        #     tableau_indice=GenXml.Lecture_Donnee.lecture_fueilles_csv(fichier,parametres._indice)
+        # else:
+        #     tableau_etape=GenXml.Lecture_Donnee.lecture_fueilles_xlsx(fichier,parametres._etape)
+        #     tableau_etapePrecision=GenXml.Lecture_Donnee.lecture_fueilles_xlsx(fichier,parametres._etapePrecision)
+        #     tableau_tabPrincipale=GenXml.Lecture_Donnee.lecture_fueilles_xlsx(fichier,parametres._tabPrincipale)
+        #     tableau_indice=GenXml.Lecture_Donnee.lecture_fueilles_xlsx(fichier,parametres._indice)
+
+    def affichage_fils_frame2(self):
+        self.frame2.update()
+        self.frame2.update_idletasks()
+        print("ici",self.frame2.winfo_height())
+        self.frame_image=       LabelFrame(self.frame2,width=(self.frame2.winfo_width()/3),height=self.frame2.winfo_height(),text="image")
+        self.frame_commentaire= LabelFrame(self.frame2,width=(self.frame2.winfo_width()/3),height=self.frame2.winfo_height(),text="commentaire")
+        self.frame_video=       LabelFrame(self.frame2,width=(self.frame2.winfo_width()/3),height=self.frame2.winfo_height(),text="video")
+
+        self.frame_commentaire.grid_propagate(False)
+        self.frame_commentaire.pack_propagate(False)
+        self.frame_commentaire.pack(side=LEFT,fill=None, expand=False)
+
+        self.frame_image.grid_propagate(False)
+        self.frame_image.pack_propagate(False)
+        self.frame_image.pack(side=RIGHT,fill=None, expand=False)
+
+        self.frame_video.grid_propagate(False)
+        self.frame_video.pack_propagate(False)
+        self.frame_video.pack(side=RIGHT,fill=None, expand=False)
+
     def affichage_niveaux(self):
-        objet=Simulation.indicateur_niveaux.indicateur_niveaux(self.frame1)
+        print("appelle de l'affichage")
+        self.objet=Simulation.indicateur_niveaux.indicateur_niveaux(self.frame1)
+
+    def plus(self):
+        self.objet.value_plus()
+
+    def moins(self):
+        self.objet.value_moins()
 
 
     def organisation_bouton(self,modif):
@@ -163,7 +230,7 @@ class Lecture(Frame):
             self.liste_label_frame_pere[i].grid(column=i,row=0)
             self.logger.info(self.liste_label_frame_pere[i])# "est paqué"
 
-        self.frame1.grid_propagate(False)
+        self.frame1.grid_propagate(False)   #permet que les frame grade leur taille.
         self.frame1.pack_propagate(False)
         self.frame1.pack(side=TOP,fill=None, expand=False)
 
@@ -174,25 +241,6 @@ class Lecture(Frame):
         self.frame3.grid_propagate(False)
         self.frame3.pack_propagate(False)
         self.frame3.pack(side=BOTTOM,fill=None, expand=False)
-
-        self.frame2.update_idletasks()
-        print(self.frame2.winfo_width())
-        self.frame_image=LabelFrame(self.frame2,width=self.frame2.winfo_width(),height=(self.frame2.winfo_height()/3),text="image")
-        self.frame_commentaire=LabelFrame(self.frame2,width=self.frame2.winfo_width(),height=(self.frame2.winfo_height()/3),text="commentaire")
-        self.frame_video=LabelFrame(self.frame2,width=self.frame2.winfo_width(),height=(self.frame2.winfo_height()/3),text="video")
-
-        self.frame_commentaire.grid_propagate(False)
-        self.frame_commentaire.pack_propagate(False)
-        self.frame_commentaire.pack(side=LEFT,fill=None, expand=False)
-
-        self.frame_image.grid_propagate(False)
-        self.frame_image.pack_propagate(False)
-        self.frame_image.pack(side=RIGHT,fill=None, expand=False)
-
-        self.frame_video.grid_propagate(False)
-        self.frame_video.pack_propagate(False)
-        self.frame_video.pack(side=RIGHT,fill=None, expand=False)
-
 
 
     def max_boutton_ligne(self):
@@ -214,12 +262,6 @@ class Lecture(Frame):
 
 
     def calcule_points(self):
-        try:
-            for element in self.frame1.winfo_children():
-                element.destroy()
-        except:
-            pass
-        self.liste_erreur=[]
         document = etree.parse(self.lecture)
         for i in range(len(self.liste_boutton)):#liste_boutton =[[a,b,c],[a,b,c],[a,b,c]]
             for j in range(len(self.liste_boutton[i])):
@@ -238,9 +280,6 @@ class Lecture(Frame):
 
     def trouve_titre_commentaire(self,parent,nom,value):
         #print(len(self.liste_erreur))
-
-        for element in self.frame1.winfo_children():    #on vide la fram s'il y a des éléménet non désiré ils sont supprimer
-            element.grid_forget()
         document = etree.parse(self.lecture)
         for pere in document.xpath("/Famille/Pere"):
             #print("voila le père:",pere.get("name"))
