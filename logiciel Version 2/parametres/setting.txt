@@ -1,0 +1,17 @@
+#ce fichier est directement utilisé par lecture_Settings.py, s'il faut rajouté des settings, modifier le fichier.py luis correspondant
+#collones prix en compte (obligatoirement 2 valeur séparé d'un ":"):
+collones{A:M}
+#grandes étapes et précision des étapes:
+etape {A}
+etapePrecision{B}
+#indication du tableau de paramètres (obligatoirement 2 valeur séparé d'un ":"):
+tabPrincipale{C:M}
+#indication de la collones pour la valeur des objet:
+indice{N}
+#paramètre de lecture du tableau les séparateur(titreCase n'est pas obligé d'avoir une valeur):
+#s'il n'y a pas de valeur a titreCase alor tout phrase commensant directement par des charactère dans le tableau principale sera considéré comme un titre
+titreCase{}
+commentaireCase{#}
+separateurRetourLigne{\n}
+parametreImage{?}
+parametreVideo{~}
