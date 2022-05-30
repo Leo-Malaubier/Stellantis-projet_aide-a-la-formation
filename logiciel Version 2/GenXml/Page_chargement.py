@@ -82,7 +82,7 @@ class Page_chargement(Frame):
 
 
 
-    def verif(self,a,b,val):
+    def verif(self,a,b,val):#vérification si un élément de la liste csv ou xlsx existe en xml
         if len(b)==0:
             self.liste.append(a)
             return 'append'

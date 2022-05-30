@@ -105,7 +105,7 @@ class Lecture(Frame):
         self.affichage_fils_frame2()
 
 
-    def indice_element(self):
+    def indice_element(self): #fait un dictionnaire de ce que signidie les élément présent dans le xml
         print("indice_element")
         NomSimple=self.chemain_complet_init.split('/')[-1]
         parametres=GenXml.Lecture_Settings.settings()

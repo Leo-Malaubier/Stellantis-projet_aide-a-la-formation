@@ -6797,451 +6797,451 @@
 2022-05-23 23:30:21,401 - INFO:N
 2022-05-23 23:30:21,401 - INFO:('parametreVideo', '/', '~')
 2022-05-23 23:30:21,401 - INFO:N
-2022-05-24 09:44:23,113 - INFO:--------xml_generateur-----------
-2022-05-24 09:44:23,146 - INFO:--------recherche-----------
-2022-05-24 09:44:23,148 - INFO:----- Taille_fichier_log -----
-2022-05-24 09:44:23,149 - INFO:('File Size is', 609142, 'bytes')
-2022-05-24 09:44:24,797 - INFO:--------Page_chargement-----------
-2022-05-24 09:44:24,813 - DEBUG:['parametres', 'video', 'xlsx', 'csv', 'xml', 'image']
-2022-05-24 09:44:24,813 - DEBUG:[]
-2022-05-24 09:44:24,813 - INFO:['Nouveau_ParamÃ¨tres_TThperso (2).xlsx']
-2022-05-24 09:44:24,813 - INFO:[]
-2022-05-24 09:44:24,813 - INFO:['Nouveau_ParamÃ¨tres_TThperso (2).xml']
-2022-05-24 09:44:24,813 - INFO:(['Nouveau_ParamÃ¨tres_TThperso (2).xml'], 'voici la liste sans traitement')
-2022-05-24 09:44:25,711 - DEBUG:Nouveau_ParamÃ¨tres_TThperso (2).xml
-2022-05-24 09:44:25,711 - DEBUG:../fichier_cours/xml/Nouveau_ParamÃ¨tres_TThperso (2).xml
-2022-05-24 09:44:25,712 - INFO:--------xml_lecture-----------
-2022-05-24 09:44:25,712 - INFO:--------Lecture_Settings-----------
-2022-05-24 09:44:25,712 - INFO:17
-2022-05-24 09:44:25,713 - INFO:('collones', '/', 'A:M')
-2022-05-24 09:44:25,713 - INFO:A:M
-2022-05-24 09:44:25,713 - INFO:('etape', '/', 'A')
-2022-05-24 09:44:25,713 - INFO:A
-2022-05-24 09:44:25,713 - INFO:('etapePrecision', '/', 'B')
-2022-05-24 09:44:25,713 - INFO:B
-2022-05-24 09:44:25,713 - INFO:('tabPrincipale', '/', 'C:M')
-2022-05-24 09:44:25,713 - INFO:C:M
-2022-05-24 09:44:25,714 - INFO:('indice', '/', 'N')
-2022-05-24 09:44:25,714 - INFO:N
-2022-05-24 09:44:25,714 - INFO:('titreCase', '/', '')
-2022-05-24 09:44:25,714 - INFO:
-2022-05-24 09:44:25,714 - INFO:('commentaireCase', '/', '#')
-2022-05-24 09:44:25,714 - INFO:#
-2022-05-24 09:44:25,714 - INFO:('separateurRetourLigne', '/', '\\n')
-2022-05-24 09:44:25,714 - INFO:\n
-2022-05-24 09:44:25,714 - INFO:('parametreImage', '/', '?')
-2022-05-24 09:44:25,714 - INFO:N
-2022-05-24 09:44:25,715 - INFO:('parametreVideo', '/', '~')
-2022-05-24 09:44:25,715 - INFO:N
-2022-05-24 09:44:25,715 - INFO:--------boutton_valeur-----------
-2022-05-24 09:44:25,715 - INFO:fichier trouvÃ©
-2022-05-24 09:44:25,716 - DEBUG:('Nouveau_ParamÃ¨tres_TThperso (2).xml', 'lecture')
-2022-05-24 09:44:25,716 - DEBUG:('xml', 'lecture avec split')
-2022-05-24 09:44:25,716 - INFO:--------Lecture_Settings-----------
-2022-05-24 09:44:25,716 - INFO:17
-2022-05-24 09:44:25,716 - INFO:('collones', '/', 'A:M')
-2022-05-24 09:44:25,716 - INFO:A:M
-2022-05-24 09:44:25,716 - INFO:('etape', '/', 'A')
-2022-05-24 09:44:25,716 - INFO:A
-2022-05-24 09:44:25,716 - INFO:('etapePrecision', '/', 'B')
-2022-05-24 09:44:25,716 - INFO:B
-2022-05-24 09:44:25,717 - INFO:('tabPrincipale', '/', 'C:M')
-2022-05-24 09:44:25,717 - INFO:C:M
-2022-05-24 09:44:25,717 - INFO:('indice', '/', 'N')
-2022-05-24 09:44:25,717 - INFO:N
-2022-05-24 09:44:25,717 - INFO:('titreCase', '/', '')
-2022-05-24 09:44:25,717 - INFO:
-2022-05-24 09:44:25,717 - INFO:('commentaireCase', '/', '#')
-2022-05-24 09:44:25,717 - INFO:#
-2022-05-24 09:44:25,717 - INFO:('separateurRetourLigne', '/', '\\n')
-2022-05-24 09:44:25,717 - INFO:\n
-2022-05-24 09:44:25,718 - INFO:('parametreImage', '/', '?')
-2022-05-24 09:44:25,718 - INFO:N
-2022-05-24 09:44:25,718 - INFO:('parametreVideo', '/', '~')
-2022-05-24 09:44:25,718 - INFO:N
-2022-05-24 09:44:25,959 - INFO:---- affichage -----
-2022-05-24 09:44:25,959 - INFO:(1000, 'information parent width: ')
-2022-05-24 09:44:25,959 - INFO:(800, 'information parent height: ')
-2022-05-24 09:44:25,960 - DEBUG:('../fichier_cours/xml/Nouveau_ParamÃ¨tres_TThperso (2).xml', 'lecture du fichier (normalement xml)')
-2022-05-24 09:44:25,960 - DEBUG:Chauffage
-2022-05-24 09:44:25,960 - DEBUG:3
-2022-05-24 09:44:25,960 - INFO:--------boutton_valeur-----------
-2022-05-24 09:44:25,960 - INFO:fils
-2022-05-24 09:44:25,960 - INFO:Couplage
-2022-05-24 09:44:25,961 - INFO:--------boutton_valeur-----------
-2022-05-24 09:44:25,961 - INFO:fils
-2022-05-24 09:44:25,961 - INFO:Puissance
-2022-05-24 09:44:25,961 - INFO:--------boutton_valeur-----------
-2022-05-24 09:44:25,961 - INFO:fils
-2022-05-24 09:44:25,961 - INFO:Temps
-2022-05-24 09:44:25,961 - DEBUG:Douche principale
-2022-05-24 09:44:25,961 - DEBUG:3
-2022-05-24 09:44:25,961 - INFO:--------boutton_valeur-----------
-2022-05-24 09:44:25,961 - INFO:fils
-2022-05-24 09:44:25,961 - INFO:Couplage
-2022-05-24 09:44:25,961 - INFO:--------boutton_valeur-----------
-2022-05-24 09:44:25,961 - INFO:fils
-2022-05-24 09:44:25,961 - INFO:Puissance
-2022-05-24 09:44:25,961 - INFO:--------boutton_valeur-----------
-2022-05-24 09:44:25,961 - INFO:fils
-2022-05-24 09:44:25,961 - INFO:Temps
-2022-05-24 09:44:25,961 - DEBUG:Douche additive
-2022-05-24 09:44:25,962 - DEBUG:3
-2022-05-24 09:44:25,962 - INFO:--------boutton_valeur-----------
-2022-05-24 09:44:25,962 - INFO:fils
-2022-05-24 09:44:25,962 - INFO:Couplage
-2022-05-24 09:44:25,962 - INFO:--------boutton_valeur-----------
-2022-05-24 09:44:25,962 - INFO:fils
-2022-05-24 09:44:25,962 - INFO:Puissance
-2022-05-24 09:44:25,962 - INFO:--------boutton_valeur-----------
-2022-05-24 09:44:25,962 - INFO:fils
-2022-05-24 09:44:25,962 - INFO:Temps
-2022-05-24 09:44:25,962 - DEBUG:--------------------------------------
-2022-05-24 09:44:25,962 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
-2022-05-24 09:44:25,962 - INFO:(1000, 'ici la largeur')
-2022-05-24 09:44:25,962 - INFO:(3, 'ici Nboutton')
-2022-05-24 09:44:25,962 - INFO:(25, 'ici PAD ')
-2022-05-24 09:44:25,962 - INFO:(80, 'ici DIM')
-2022-05-24 09:44:25,962 - INFO:3
-2022-05-24 09:44:25,963 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
-2022-05-24 09:44:25,963 - DEBUG:3
-2022-05-24 09:44:25,963 - DEBUG:.!lecture.!labelframe3.!labelframe.!valeur
-2022-05-24 09:44:25,964 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-24 09:44:25,964 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-24 09:44:25,964 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-24 09:44:25,964 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-24 09:44:25,964 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-24 09:44:25,964 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-24 09:44:25,964 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-24 09:44:25,964 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-24 09:44:25,965 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-24 09:44:25,965 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-24 09:44:25,965 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-24 09:44:25,965 - DEBUG:.!lecture.!labelframe3.!labelframe.!valeur2
-2022-05-24 09:44:25,966 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-24 09:44:25,966 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-24 09:44:25,966 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-24 09:44:25,966 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-24 09:44:25,966 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-24 09:44:25,966 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-24 09:44:25,966 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-24 09:44:25,966 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-24 09:44:25,967 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-24 09:44:25,967 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-24 09:44:25,967 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-24 09:44:25,967 - DEBUG:.!lecture.!labelframe3.!labelframe.!valeur3
-2022-05-24 09:44:25,967 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-24 09:44:25,967 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-24 09:44:25,967 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-24 09:44:25,968 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-24 09:44:25,968 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-24 09:44:25,968 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-24 09:44:25,968 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-24 09:44:25,968 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-24 09:44:25,968 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-24 09:44:25,968 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-24 09:44:25,968 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-24 09:44:25,968 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
-2022-05-24 09:44:25,969 - DEBUG:3
-2022-05-24 09:44:25,969 - DEBUG:.!lecture.!labelframe3.!labelframe2.!valeur
-2022-05-24 09:44:25,969 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-24 09:44:25,969 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-24 09:44:25,969 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-24 09:44:25,969 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-24 09:44:25,969 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-24 09:44:25,969 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-24 09:44:25,970 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-24 09:44:25,970 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-24 09:44:25,970 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-24 09:44:25,970 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-24 09:44:25,970 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-24 09:44:25,970 - DEBUG:.!lecture.!labelframe3.!labelframe2.!valeur2
-2022-05-24 09:44:25,970 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-24 09:44:25,970 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-24 09:44:25,971 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-24 09:44:25,971 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-24 09:44:25,971 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-24 09:44:25,971 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-24 09:44:25,971 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-24 09:44:25,971 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-24 09:44:25,971 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-24 09:44:25,971 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-24 09:44:25,971 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-24 09:44:25,972 - DEBUG:.!lecture.!labelframe3.!labelframe2.!valeur3
-2022-05-24 09:44:25,972 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-24 09:44:25,972 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-24 09:44:25,972 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-24 09:44:25,972 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-24 09:44:25,972 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-24 09:44:25,972 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-24 09:44:25,972 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-24 09:44:25,972 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-24 09:44:25,972 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-24 09:44:25,972 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-24 09:44:25,972 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-24 09:44:25,973 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
-2022-05-24 09:44:25,973 - DEBUG:3
-2022-05-24 09:44:25,973 - DEBUG:.!lecture.!labelframe3.!labelframe3.!valeur
-2022-05-24 09:44:25,973 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-24 09:44:25,973 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-24 09:44:25,973 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-24 09:44:25,973 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-24 09:44:25,973 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-24 09:44:25,973 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-24 09:44:25,973 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-24 09:44:25,973 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-24 09:44:25,973 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-24 09:44:25,974 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-24 09:44:25,974 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-24 09:44:25,974 - DEBUG:.!lecture.!labelframe3.!labelframe3.!valeur2
-2022-05-24 09:44:25,974 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-24 09:44:25,974 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-24 09:44:25,974 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-24 09:44:25,974 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-24 09:44:25,974 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-24 09:44:25,974 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-24 09:44:25,974 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-24 09:44:25,974 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-24 09:44:25,974 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-24 09:44:25,975 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-24 09:44:25,975 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-24 09:44:25,975 - DEBUG:.!lecture.!labelframe3.!labelframe3.!valeur3
-2022-05-24 09:44:25,975 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-24 09:44:25,975 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-24 09:44:25,975 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-24 09:44:25,975 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-24 09:44:25,975 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-24 09:44:25,975 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-24 09:44:25,975 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-24 09:44:25,976 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-24 09:44:25,976 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-24 09:44:25,976 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-24 09:44:25,976 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-24 09:44:25,976 - INFO:.!lecture.!labelframe3.!labelframe
-2022-05-24 09:44:25,976 - INFO:.!lecture.!labelframe3.!labelframe2
-2022-05-24 09:44:25,976 - INFO:.!lecture.!labelframe3.!labelframe3
-2022-05-24 09:44:25,976 - INFO:--------indicateur_niveaux-----------
-2022-05-25 13:33:31,486 - INFO:--------xml_generateur-----------
-2022-05-25 13:33:31,498 - INFO:--------recherche-----------
-2022-05-25 13:33:31,500 - INFO:----- Taille_fichier_log -----
-2022-05-25 13:33:31,500 - INFO:('File Size is', 628498, 'bytes')
-2022-05-25 13:33:33,941 - INFO:--------Page_chargement-----------
-2022-05-25 13:33:33,955 - DEBUG:['parametres', 'video', 'xlsx', 'csv', 'xml', 'image']
-2022-05-25 13:33:33,955 - DEBUG:[]
-2022-05-25 13:33:33,958 - INFO:['Nouveau_ParamÃ¨tres_TThperso (2).xlsx']
-2022-05-25 13:33:33,959 - INFO:[]
-2022-05-25 13:33:33,959 - INFO:['Nouveau_ParamÃ¨tres_TThperso (2).xml']
-2022-05-25 13:33:33,959 - INFO:(['Nouveau_ParamÃ¨tres_TThperso (2).xml'], 'voici la liste sans traitement')
-2022-05-25 13:33:35,699 - DEBUG:Nouveau_ParamÃ¨tres_TThperso (2).xml
-2022-05-25 13:33:35,699 - DEBUG:../fichier_cours/xml/Nouveau_ParamÃ¨tres_TThperso (2).xml
-2022-05-25 13:33:35,700 - INFO:--------xml_lecture-----------
-2022-05-25 13:33:35,700 - INFO:--------Lecture_Settings-----------
-2022-05-25 13:33:35,703 - INFO:17
-2022-05-25 13:33:35,703 - INFO:('collones', '/', 'A:M')
-2022-05-25 13:33:35,703 - INFO:A:M
-2022-05-25 13:33:35,703 - INFO:('etape', '/', 'A')
-2022-05-25 13:33:35,703 - INFO:A
-2022-05-25 13:33:35,703 - INFO:('etapePrecision', '/', 'B')
-2022-05-25 13:33:35,703 - INFO:B
-2022-05-25 13:33:35,703 - INFO:('tabPrincipale', '/', 'C:M')
-2022-05-25 13:33:35,703 - INFO:C:M
-2022-05-25 13:33:35,703 - INFO:('indice', '/', 'N')
-2022-05-25 13:33:35,703 - INFO:N
-2022-05-25 13:33:35,704 - INFO:('titreCase', '/', '')
-2022-05-25 13:33:35,704 - INFO:
-2022-05-25 13:33:35,704 - INFO:('commentaireCase', '/', '#')
-2022-05-25 13:33:35,704 - INFO:#
-2022-05-25 13:33:35,704 - INFO:('separateurRetourLigne', '/', '\\n')
-2022-05-25 13:33:35,704 - INFO:\n
-2022-05-25 13:33:35,704 - INFO:('parametreImage', '/', '?')
-2022-05-25 13:33:35,704 - INFO:N
-2022-05-25 13:33:35,704 - INFO:('parametreVideo', '/', '~')
-2022-05-25 13:33:35,704 - INFO:N
-2022-05-25 13:33:35,704 - INFO:--------boutton_valeur-----------
-2022-05-25 13:33:35,705 - INFO:fichier trouvÃ©
-2022-05-25 13:33:35,705 - DEBUG:('Nouveau_ParamÃ¨tres_TThperso (2).xml', 'lecture')
-2022-05-25 13:33:35,705 - DEBUG:('xml', 'lecture avec split')
-2022-05-25 13:33:35,705 - INFO:--------Lecture_Settings-----------
-2022-05-25 13:33:35,705 - INFO:17
-2022-05-25 13:33:35,705 - INFO:('collones', '/', 'A:M')
-2022-05-25 13:33:35,705 - INFO:A:M
-2022-05-25 13:33:35,705 - INFO:('etape', '/', 'A')
-2022-05-25 13:33:35,705 - INFO:A
-2022-05-25 13:33:35,705 - INFO:('etapePrecision', '/', 'B')
-2022-05-25 13:33:35,706 - INFO:B
-2022-05-25 13:33:35,706 - INFO:('tabPrincipale', '/', 'C:M')
-2022-05-25 13:33:35,706 - INFO:C:M
-2022-05-25 13:33:35,706 - INFO:('indice', '/', 'N')
-2022-05-25 13:33:35,706 - INFO:N
-2022-05-25 13:33:35,706 - INFO:('titreCase', '/', '')
-2022-05-25 13:33:35,706 - INFO:
-2022-05-25 13:33:35,706 - INFO:('commentaireCase', '/', '#')
-2022-05-25 13:33:35,706 - INFO:#
-2022-05-25 13:33:35,706 - INFO:('separateurRetourLigne', '/', '\\n')
-2022-05-25 13:33:35,706 - INFO:\n
-2022-05-25 13:33:35,706 - INFO:('parametreImage', '/', '?')
-2022-05-25 13:33:35,706 - INFO:N
-2022-05-25 13:33:35,706 - INFO:('parametreVideo', '/', '~')
-2022-05-25 13:33:35,706 - INFO:N
-2022-05-25 13:33:35,885 - INFO:---- affichage -----
-2022-05-25 13:33:35,886 - INFO:(1000, 'information parent width: ')
-2022-05-25 13:33:35,886 - INFO:(800, 'information parent height: ')
-2022-05-25 13:33:35,886 - DEBUG:('../fichier_cours/xml/Nouveau_ParamÃ¨tres_TThperso (2).xml', 'lecture du fichier (normalement xml)')
-2022-05-25 13:33:35,887 - DEBUG:Chauffage
-2022-05-25 13:33:35,887 - DEBUG:3
-2022-05-25 13:33:35,887 - INFO:--------boutton_valeur-----------
-2022-05-25 13:33:35,887 - INFO:fils
-2022-05-25 13:33:35,887 - INFO:Couplage
-2022-05-25 13:33:35,887 - INFO:--------boutton_valeur-----------
-2022-05-25 13:33:35,887 - INFO:fils
-2022-05-25 13:33:35,888 - INFO:Puissance
-2022-05-25 13:33:35,888 - INFO:--------boutton_valeur-----------
-2022-05-25 13:33:35,888 - INFO:fils
-2022-05-25 13:33:35,888 - INFO:Temps
-2022-05-25 13:33:35,888 - DEBUG:Douche principale
-2022-05-25 13:33:35,888 - DEBUG:3
-2022-05-25 13:33:35,888 - INFO:--------boutton_valeur-----------
-2022-05-25 13:33:35,888 - INFO:fils
-2022-05-25 13:33:35,888 - INFO:Couplage
-2022-05-25 13:33:35,888 - INFO:--------boutton_valeur-----------
-2022-05-25 13:33:35,888 - INFO:fils
-2022-05-25 13:33:35,888 - INFO:Puissance
-2022-05-25 13:33:35,888 - INFO:--------boutton_valeur-----------
-2022-05-25 13:33:35,888 - INFO:fils
-2022-05-25 13:33:35,888 - INFO:Temps
-2022-05-25 13:33:35,888 - DEBUG:Douche additive
-2022-05-25 13:33:35,888 - DEBUG:3
-2022-05-25 13:33:35,888 - INFO:--------boutton_valeur-----------
-2022-05-25 13:33:35,889 - INFO:fils
-2022-05-25 13:33:35,889 - INFO:Couplage
-2022-05-25 13:33:35,889 - INFO:--------boutton_valeur-----------
-2022-05-25 13:33:35,889 - INFO:fils
-2022-05-25 13:33:35,889 - INFO:Puissance
-2022-05-25 13:33:35,889 - INFO:--------boutton_valeur-----------
-2022-05-25 13:33:35,889 - INFO:fils
-2022-05-25 13:33:35,889 - INFO:Temps
-2022-05-25 13:33:35,889 - DEBUG:--------------------------------------
-2022-05-25 13:33:35,889 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
-2022-05-25 13:33:35,889 - INFO:(1000, 'ici la largeur')
-2022-05-25 13:33:35,889 - INFO:(3, 'ici Nboutton')
-2022-05-25 13:33:35,889 - INFO:(25, 'ici PAD ')
-2022-05-25 13:33:35,889 - INFO:(80, 'ici DIM')
-2022-05-25 13:33:35,889 - INFO:3
-2022-05-25 13:33:35,889 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
-2022-05-25 13:33:35,889 - DEBUG:3
-2022-05-25 13:33:35,889 - DEBUG:.!lecture.!labelframe3.!labelframe.!valeur
-2022-05-25 13:33:35,890 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-25 13:33:35,890 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-25 13:33:35,890 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-25 13:33:35,891 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-25 13:33:35,891 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-25 13:33:35,891 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-25 13:33:35,891 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-25 13:33:35,891 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-25 13:33:35,891 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-25 13:33:35,891 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-25 13:33:35,891 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-25 13:33:35,891 - DEBUG:.!lecture.!labelframe3.!labelframe.!valeur2
-2022-05-25 13:33:35,892 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-25 13:33:35,892 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-25 13:33:35,892 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-25 13:33:35,892 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-25 13:33:35,892 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-25 13:33:35,892 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-25 13:33:35,892 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-25 13:33:35,892 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-25 13:33:35,892 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-25 13:33:35,892 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-25 13:33:35,892 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-25 13:33:35,893 - DEBUG:.!lecture.!labelframe3.!labelframe.!valeur3
-2022-05-25 13:33:35,893 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-25 13:33:35,893 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-25 13:33:35,893 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-25 13:33:35,893 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-25 13:33:35,893 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-25 13:33:35,893 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-25 13:33:35,893 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-25 13:33:35,893 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-25 13:33:35,893 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-25 13:33:35,893 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-25 13:33:35,894 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-25 13:33:35,894 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
-2022-05-25 13:33:35,894 - DEBUG:3
-2022-05-25 13:33:35,894 - DEBUG:.!lecture.!labelframe3.!labelframe2.!valeur
-2022-05-25 13:33:35,894 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-25 13:33:35,894 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-25 13:33:35,894 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-25 13:33:35,894 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-25 13:33:35,894 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-25 13:33:35,895 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-25 13:33:35,895 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-25 13:33:35,895 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-25 13:33:35,895 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-25 13:33:35,895 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-25 13:33:35,895 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-25 13:33:35,895 - DEBUG:.!lecture.!labelframe3.!labelframe2.!valeur2
-2022-05-25 13:33:35,895 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-25 13:33:35,895 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-25 13:33:35,895 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-25 13:33:35,895 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-25 13:33:35,896 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-25 13:33:35,896 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-25 13:33:35,896 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-25 13:33:35,896 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-25 13:33:35,896 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-25 13:33:35,896 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-25 13:33:35,896 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-25 13:33:35,896 - DEBUG:.!lecture.!labelframe3.!labelframe2.!valeur3
-2022-05-25 13:33:35,896 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-25 13:33:35,896 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-25 13:33:35,896 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-25 13:33:35,896 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-25 13:33:35,897 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-25 13:33:35,897 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-25 13:33:35,897 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-25 13:33:35,897 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-25 13:33:35,897 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-25 13:33:35,897 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-25 13:33:35,897 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-25 13:33:35,897 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
-2022-05-25 13:33:35,897 - DEBUG:3
-2022-05-25 13:33:35,897 - DEBUG:.!lecture.!labelframe3.!labelframe3.!valeur
-2022-05-25 13:33:35,897 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-25 13:33:35,897 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-25 13:33:35,898 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-25 13:33:35,898 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-25 13:33:35,898 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-25 13:33:35,898 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-25 13:33:35,898 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-25 13:33:35,898 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-25 13:33:35,898 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-25 13:33:35,898 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-25 13:33:35,898 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-25 13:33:35,898 - DEBUG:.!lecture.!labelframe3.!labelframe3.!valeur2
-2022-05-25 13:33:35,898 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-25 13:33:35,899 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-25 13:33:35,899 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-25 13:33:35,899 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-25 13:33:35,899 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-25 13:33:35,899 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-25 13:33:35,899 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-25 13:33:35,899 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-25 13:33:35,899 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-25 13:33:35,899 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-25 13:33:35,899 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-25 13:33:35,899 - DEBUG:.!lecture.!labelframe3.!labelframe3.!valeur3
-2022-05-25 13:33:35,900 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
-2022-05-25 13:33:35,900 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
-2022-05-25 13:33:35,900 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
-2022-05-25 13:33:35,900 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
-2022-05-25 13:33:35,900 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
-2022-05-25 13:33:35,900 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
-2022-05-25 13:33:35,900 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
-2022-05-25 13:33:35,900 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
-2022-05-25 13:33:35,900 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
-2022-05-25 13:33:35,900 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
-2022-05-25 13:33:35,900 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
-2022-05-25 13:33:35,900 - INFO:.!lecture.!labelframe3.!labelframe
-2022-05-25 13:33:35,900 - INFO:.!lecture.!labelframe3.!labelframe2
-2022-05-25 13:33:35,901 - INFO:.!lecture.!labelframe3.!labelframe3
-2022-05-25 13:33:35,901 - INFO:--------indicateur_niveaux-----------
+2022-05-29 21:50:55,483 - INFO:--------xml_generateur-----------
+2022-05-29 21:50:55,541 - INFO:--------recherche-----------
+2022-05-29 21:50:55,549 - INFO:----- Taille_fichier_log -----
+2022-05-29 21:50:55,549 - INFO:('File Size is', 609144, 'bytes')
+2022-05-29 21:50:57,219 - INFO:--------Page_chargement-----------
+2022-05-29 21:50:57,225 - DEBUG:['csv', 'image', 'parametres', 'video', 'xlsx', 'xml']
+2022-05-29 21:50:57,225 - DEBUG:[]
+2022-05-29 21:50:57,225 - INFO:['Nouveau_Paramètres_TThperso (2).xlsx']
+2022-05-29 21:50:57,225 - INFO:[]
+2022-05-29 21:50:57,225 - INFO:['Nouveau_Paramètres_TThperso (2).xml']
+2022-05-29 21:50:57,225 - INFO:(['Nouveau_Paramètres_TThperso (2).xml'], 'voici la liste sans traitement')
+2022-05-29 21:50:58,255 - DEBUG:Nouveau_Paramètres_TThperso (2).xml
+2022-05-29 21:50:58,255 - DEBUG:../fichier_cours/xml/Nouveau_Paramètres_TThperso (2).xml
+2022-05-29 21:50:58,256 - INFO:--------xml_lecture-----------
+2022-05-29 21:50:58,256 - INFO:--------Lecture_Settings-----------
+2022-05-29 21:50:58,260 - INFO:17
+2022-05-29 21:50:58,260 - INFO:('collones', '/', 'A:M')
+2022-05-29 21:50:58,260 - INFO:A:M
+2022-05-29 21:50:58,260 - INFO:('etape', '/', 'A')
+2022-05-29 21:50:58,260 - INFO:A
+2022-05-29 21:50:58,260 - INFO:('etapePrecision', '/', 'B')
+2022-05-29 21:50:58,260 - INFO:B
+2022-05-29 21:50:58,260 - INFO:('tabPrincipale', '/', 'C:M')
+2022-05-29 21:50:58,260 - INFO:C:M
+2022-05-29 21:50:58,260 - INFO:('indice', '/', 'N')
+2022-05-29 21:50:58,260 - INFO:N
+2022-05-29 21:50:58,261 - INFO:('titreCase', '/', '')
+2022-05-29 21:50:58,261 - INFO:
+2022-05-29 21:50:58,261 - INFO:('commentaireCase', '/', '#')
+2022-05-29 21:50:58,261 - INFO:#
+2022-05-29 21:50:58,261 - INFO:('separateurRetourLigne', '/', '\\n')
+2022-05-29 21:50:58,261 - INFO:\n
+2022-05-29 21:50:58,261 - INFO:('parametreImage', '/', '?')
+2022-05-29 21:50:58,261 - INFO:N
+2022-05-29 21:50:58,261 - INFO:('parametreVideo', '/', '~')
+2022-05-29 21:50:58,261 - INFO:N
+2022-05-29 21:50:58,261 - INFO:--------boutton_valeur-----------
+2022-05-29 21:50:58,270 - INFO:fichier trouvé
+2022-05-29 21:50:58,270 - DEBUG:('Nouveau_Paramètres_TThperso (2).xml', 'lecture')
+2022-05-29 21:50:58,270 - DEBUG:('xml', 'lecture avec split')
+2022-05-29 21:50:58,270 - INFO:--------Lecture_Settings-----------
+2022-05-29 21:50:58,270 - INFO:17
+2022-05-29 21:50:58,270 - INFO:('collones', '/', 'A:M')
+2022-05-29 21:50:58,270 - INFO:A:M
+2022-05-29 21:50:58,271 - INFO:('etape', '/', 'A')
+2022-05-29 21:50:58,271 - INFO:A
+2022-05-29 21:50:58,271 - INFO:('etapePrecision', '/', 'B')
+2022-05-29 21:50:58,271 - INFO:B
+2022-05-29 21:50:58,271 - INFO:('tabPrincipale', '/', 'C:M')
+2022-05-29 21:50:58,271 - INFO:C:M
+2022-05-29 21:50:58,271 - INFO:('indice', '/', 'N')
+2022-05-29 21:50:58,271 - INFO:N
+2022-05-29 21:50:58,271 - INFO:('titreCase', '/', '')
+2022-05-29 21:50:58,271 - INFO:
+2022-05-29 21:50:58,271 - INFO:('commentaireCase', '/', '#')
+2022-05-29 21:50:58,271 - INFO:#
+2022-05-29 21:50:58,271 - INFO:('separateurRetourLigne', '/', '\\n')
+2022-05-29 21:50:58,271 - INFO:\n
+2022-05-29 21:50:58,271 - INFO:('parametreImage', '/', '?')
+2022-05-29 21:50:58,271 - INFO:N
+2022-05-29 21:50:58,271 - INFO:('parametreVideo', '/', '~')
+2022-05-29 21:50:58,271 - INFO:N
+2022-05-29 21:50:58,620 - INFO:---- affichage -----
+2022-05-29 21:50:58,620 - INFO:(1000, 'information parent width: ')
+2022-05-29 21:50:58,620 - INFO:(800, 'information parent height: ')
+2022-05-29 21:50:58,620 - DEBUG:('../fichier_cours/xml/Nouveau_Paramètres_TThperso (2).xml', 'lecture du fichier (normalement xml)')
+2022-05-29 21:50:58,626 - DEBUG:Chauffage
+2022-05-29 21:50:58,626 - DEBUG:3
+2022-05-29 21:50:58,626 - INFO:--------boutton_valeur-----------
+2022-05-29 21:50:58,626 - INFO:fils
+2022-05-29 21:50:58,626 - INFO:Couplage
+2022-05-29 21:50:58,626 - INFO:--------boutton_valeur-----------
+2022-05-29 21:50:58,626 - INFO:fils
+2022-05-29 21:50:58,627 - INFO:Puissance
+2022-05-29 21:50:58,627 - INFO:--------boutton_valeur-----------
+2022-05-29 21:50:58,627 - INFO:fils
+2022-05-29 21:50:58,627 - INFO:Temps
+2022-05-29 21:50:58,627 - DEBUG:Douche principale
+2022-05-29 21:50:58,627 - DEBUG:3
+2022-05-29 21:50:58,627 - INFO:--------boutton_valeur-----------
+2022-05-29 21:50:58,627 - INFO:fils
+2022-05-29 21:50:58,627 - INFO:Couplage
+2022-05-29 21:50:58,627 - INFO:--------boutton_valeur-----------
+2022-05-29 21:50:58,627 - INFO:fils
+2022-05-29 21:50:58,627 - INFO:Puissance
+2022-05-29 21:50:58,627 - INFO:--------boutton_valeur-----------
+2022-05-29 21:50:58,627 - INFO:fils
+2022-05-29 21:50:58,627 - INFO:Temps
+2022-05-29 21:50:58,627 - DEBUG:Douche additive
+2022-05-29 21:50:58,627 - DEBUG:3
+2022-05-29 21:50:58,627 - INFO:--------boutton_valeur-----------
+2022-05-29 21:50:58,627 - INFO:fils
+2022-05-29 21:50:58,628 - INFO:Couplage
+2022-05-29 21:50:58,628 - INFO:--------boutton_valeur-----------
+2022-05-29 21:50:58,628 - INFO:fils
+2022-05-29 21:50:58,628 - INFO:Puissance
+2022-05-29 21:50:58,628 - INFO:--------boutton_valeur-----------
+2022-05-29 21:50:58,628 - INFO:fils
+2022-05-29 21:50:58,628 - INFO:Temps
+2022-05-29 21:50:58,628 - DEBUG:--------------------------------------
+2022-05-29 21:50:58,628 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
+2022-05-29 21:50:58,628 - INFO:(1000, 'ici la largeur')
+2022-05-29 21:50:58,628 - INFO:(3, 'ici Nboutton')
+2022-05-29 21:50:58,628 - INFO:(25, 'ici PAD ')
+2022-05-29 21:50:58,628 - INFO:(80, 'ici DIM')
+2022-05-29 21:50:58,628 - INFO:3
+2022-05-29 21:50:58,628 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
+2022-05-29 21:50:58,628 - DEBUG:3
+2022-05-29 21:50:58,628 - DEBUG:.!lecture.!labelframe3.!labelframe.!valeur
+2022-05-29 21:50:58,630 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-29 21:50:58,630 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-29 21:50:58,630 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-29 21:50:58,630 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-29 21:50:58,630 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-29 21:50:58,631 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-29 21:50:58,631 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-29 21:50:58,631 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-29 21:50:58,631 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-29 21:50:58,631 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-29 21:50:58,631 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-29 21:50:58,632 - DEBUG:.!lecture.!labelframe3.!labelframe.!valeur2
+2022-05-29 21:50:58,632 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-29 21:50:58,632 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-29 21:50:58,632 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-29 21:50:58,632 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-29 21:50:58,632 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-29 21:50:58,632 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-29 21:50:58,632 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-29 21:50:58,632 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-29 21:50:58,633 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-29 21:50:58,633 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-29 21:50:58,633 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-29 21:50:58,633 - DEBUG:.!lecture.!labelframe3.!labelframe.!valeur3
+2022-05-29 21:50:58,633 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-29 21:50:58,633 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-29 21:50:58,633 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-29 21:50:58,633 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-29 21:50:58,633 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-29 21:50:58,634 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-29 21:50:58,634 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-29 21:50:58,634 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-29 21:50:58,634 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-29 21:50:58,634 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-29 21:50:58,634 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-29 21:50:58,634 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
+2022-05-29 21:50:58,634 - DEBUG:3
+2022-05-29 21:50:58,634 - DEBUG:.!lecture.!labelframe3.!labelframe2.!valeur
+2022-05-29 21:50:58,634 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-29 21:50:58,635 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-29 21:50:58,635 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-29 21:50:58,635 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-29 21:50:58,635 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-29 21:50:58,635 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-29 21:50:58,635 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-29 21:50:58,635 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-29 21:50:58,635 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-29 21:50:58,635 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-29 21:50:58,635 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-29 21:50:58,636 - DEBUG:.!lecture.!labelframe3.!labelframe2.!valeur2
+2022-05-29 21:50:58,636 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-29 21:50:58,636 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-29 21:50:58,636 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-29 21:50:58,636 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-29 21:50:58,636 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-29 21:50:58,636 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-29 21:50:58,636 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-29 21:50:58,636 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-29 21:50:58,636 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-29 21:50:58,637 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-29 21:50:58,637 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-29 21:50:58,637 - DEBUG:.!lecture.!labelframe3.!labelframe2.!valeur3
+2022-05-29 21:50:58,637 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-29 21:50:58,637 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-29 21:50:58,637 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-29 21:50:58,637 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-29 21:50:58,637 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-29 21:50:58,637 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-29 21:50:58,638 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-29 21:50:58,638 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-29 21:50:58,638 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-29 21:50:58,638 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-29 21:50:58,638 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-29 21:50:58,638 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
+2022-05-29 21:50:58,638 - DEBUG:3
+2022-05-29 21:50:58,638 - DEBUG:.!lecture.!labelframe3.!labelframe3.!valeur
+2022-05-29 21:50:58,638 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-29 21:50:58,638 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-29 21:50:58,639 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-29 21:50:58,639 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-29 21:50:58,639 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-29 21:50:58,639 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-29 21:50:58,639 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-29 21:50:58,639 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-29 21:50:58,639 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-29 21:50:58,639 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-29 21:50:58,639 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-29 21:50:58,639 - DEBUG:.!lecture.!labelframe3.!labelframe3.!valeur2
+2022-05-29 21:50:58,640 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-29 21:50:58,640 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-29 21:50:58,640 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-29 21:50:58,640 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-29 21:50:58,640 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-29 21:50:58,640 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-29 21:50:58,640 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-29 21:50:58,640 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-29 21:50:58,640 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-29 21:50:58,640 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-29 21:50:58,641 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-29 21:50:58,641 - DEBUG:.!lecture.!labelframe3.!labelframe3.!valeur3
+2022-05-29 21:50:58,641 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-29 21:50:58,641 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-29 21:50:58,641 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-29 21:50:58,641 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-29 21:50:58,641 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-29 21:50:58,641 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-29 21:50:58,641 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-29 21:50:58,642 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-29 21:50:58,642 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-29 21:50:58,642 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-29 21:50:58,642 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-29 21:50:58,642 - INFO:.!lecture.!labelframe3.!labelframe
+2022-05-29 21:50:58,642 - INFO:.!lecture.!labelframe3.!labelframe2
+2022-05-29 21:50:58,642 - INFO:.!lecture.!labelframe3.!labelframe3
+2022-05-29 21:50:58,642 - INFO:--------indicateur_niveaux-----------
+2022-05-30 13:35:31,903 - INFO:--------xml_generateur-----------
+2022-05-30 13:35:31,918 - INFO:--------recherche-----------
+2022-05-30 13:35:31,928 - INFO:----- Taille_fichier_log -----
+2022-05-30 13:35:31,929 - INFO:('File Size is', 628716, 'bytes')
+2022-05-30 13:35:33,709 - INFO:--------Page_chargement-----------
+2022-05-30 13:35:33,712 - DEBUG:['csv', 'image', 'parametres', 'video', 'xlsx', 'xml']
+2022-05-30 13:35:33,712 - DEBUG:[]
+2022-05-30 13:35:33,712 - INFO:['Nouveau_Paramètres_TThperso (2).xlsx']
+2022-05-30 13:35:33,712 - INFO:[]
+2022-05-30 13:35:33,712 - INFO:['Nouveau_Paramètres_TThperso (2).xml']
+2022-05-30 13:35:33,712 - INFO:(['Nouveau_Paramètres_TThperso (2).xml'], 'voici la liste sans traitement')
+2022-05-30 13:35:34,550 - DEBUG:Nouveau_Paramètres_TThperso (2).xml
+2022-05-30 13:35:34,550 - DEBUG:../fichier_cours/xml/Nouveau_Paramètres_TThperso (2).xml
+2022-05-30 13:35:34,551 - INFO:--------xml_lecture-----------
+2022-05-30 13:35:34,551 - INFO:--------Lecture_Settings-----------
+2022-05-30 13:35:34,553 - INFO:17
+2022-05-30 13:35:34,553 - INFO:('collones', '/', 'A:M')
+2022-05-30 13:35:34,553 - INFO:A:M
+2022-05-30 13:35:34,553 - INFO:('etape', '/', 'A')
+2022-05-30 13:35:34,553 - INFO:A
+2022-05-30 13:35:34,553 - INFO:('etapePrecision', '/', 'B')
+2022-05-30 13:35:34,553 - INFO:B
+2022-05-30 13:35:34,553 - INFO:('tabPrincipale', '/', 'C:M')
+2022-05-30 13:35:34,553 - INFO:C:M
+2022-05-30 13:35:34,553 - INFO:('indice', '/', 'N')
+2022-05-30 13:35:34,554 - INFO:N
+2022-05-30 13:35:34,554 - INFO:('titreCase', '/', '')
+2022-05-30 13:35:34,554 - INFO:
+2022-05-30 13:35:34,554 - INFO:('commentaireCase', '/', '#')
+2022-05-30 13:35:34,554 - INFO:#
+2022-05-30 13:35:34,554 - INFO:('separateurRetourLigne', '/', '\\n')
+2022-05-30 13:35:34,554 - INFO:\n
+2022-05-30 13:35:34,554 - INFO:('parametreImage', '/', '?')
+2022-05-30 13:35:34,554 - INFO:N
+2022-05-30 13:35:34,554 - INFO:('parametreVideo', '/', '~')
+2022-05-30 13:35:34,554 - INFO:N
+2022-05-30 13:35:34,554 - INFO:--------boutton_valeur-----------
+2022-05-30 13:35:34,558 - INFO:fichier trouvé
+2022-05-30 13:35:34,558 - DEBUG:('Nouveau_Paramètres_TThperso (2).xml', 'lecture')
+2022-05-30 13:35:34,558 - DEBUG:('xml', 'lecture avec split')
+2022-05-30 13:35:34,558 - INFO:--------Lecture_Settings-----------
+2022-05-30 13:35:34,558 - INFO:17
+2022-05-30 13:35:34,558 - INFO:('collones', '/', 'A:M')
+2022-05-30 13:35:34,558 - INFO:A:M
+2022-05-30 13:35:34,558 - INFO:('etape', '/', 'A')
+2022-05-30 13:35:34,558 - INFO:A
+2022-05-30 13:35:34,558 - INFO:('etapePrecision', '/', 'B')
+2022-05-30 13:35:34,558 - INFO:B
+2022-05-30 13:35:34,558 - INFO:('tabPrincipale', '/', 'C:M')
+2022-05-30 13:35:34,558 - INFO:C:M
+2022-05-30 13:35:34,559 - INFO:('indice', '/', 'N')
+2022-05-30 13:35:34,559 - INFO:N
+2022-05-30 13:35:34,559 - INFO:('titreCase', '/', '')
+2022-05-30 13:35:34,559 - INFO:
+2022-05-30 13:35:34,559 - INFO:('commentaireCase', '/', '#')
+2022-05-30 13:35:34,559 - INFO:#
+2022-05-30 13:35:34,559 - INFO:('separateurRetourLigne', '/', '\\n')
+2022-05-30 13:35:34,559 - INFO:\n
+2022-05-30 13:35:34,559 - INFO:('parametreImage', '/', '?')
+2022-05-30 13:35:34,559 - INFO:N
+2022-05-30 13:35:34,559 - INFO:('parametreVideo', '/', '~')
+2022-05-30 13:35:34,559 - INFO:N
+2022-05-30 13:35:34,758 - INFO:---- affichage -----
+2022-05-30 13:35:34,758 - INFO:(1000, 'information parent width: ')
+2022-05-30 13:35:34,758 - INFO:(800, 'information parent height: ')
+2022-05-30 13:35:34,759 - DEBUG:('../fichier_cours/xml/Nouveau_Paramètres_TThperso (2).xml', 'lecture du fichier (normalement xml)')
+2022-05-30 13:35:34,764 - DEBUG:Chauffage
+2022-05-30 13:35:34,764 - DEBUG:3
+2022-05-30 13:35:34,764 - INFO:--------boutton_valeur-----------
+2022-05-30 13:35:34,764 - INFO:fils
+2022-05-30 13:35:34,764 - INFO:Couplage
+2022-05-30 13:35:34,764 - INFO:--------boutton_valeur-----------
+2022-05-30 13:35:34,764 - INFO:fils
+2022-05-30 13:35:34,764 - INFO:Puissance
+2022-05-30 13:35:34,764 - INFO:--------boutton_valeur-----------
+2022-05-30 13:35:34,764 - INFO:fils
+2022-05-30 13:35:34,764 - INFO:Temps
+2022-05-30 13:35:34,764 - DEBUG:Douche principale
+2022-05-30 13:35:34,765 - DEBUG:3
+2022-05-30 13:35:34,765 - INFO:--------boutton_valeur-----------
+2022-05-30 13:35:34,765 - INFO:fils
+2022-05-30 13:35:34,765 - INFO:Couplage
+2022-05-30 13:35:34,765 - INFO:--------boutton_valeur-----------
+2022-05-30 13:35:34,765 - INFO:fils
+2022-05-30 13:35:34,765 - INFO:Puissance
+2022-05-30 13:35:34,765 - INFO:--------boutton_valeur-----------
+2022-05-30 13:35:34,765 - INFO:fils
+2022-05-30 13:35:34,765 - INFO:Temps
+2022-05-30 13:35:34,765 - DEBUG:Douche additive
+2022-05-30 13:35:34,765 - DEBUG:3
+2022-05-30 13:35:34,765 - INFO:--------boutton_valeur-----------
+2022-05-30 13:35:34,765 - INFO:fils
+2022-05-30 13:35:34,765 - INFO:Couplage
+2022-05-30 13:35:34,765 - INFO:--------boutton_valeur-----------
+2022-05-30 13:35:34,765 - INFO:fils
+2022-05-30 13:35:34,765 - INFO:Puissance
+2022-05-30 13:35:34,766 - INFO:--------boutton_valeur-----------
+2022-05-30 13:35:34,766 - INFO:fils
+2022-05-30 13:35:34,766 - INFO:Temps
+2022-05-30 13:35:34,766 - DEBUG:--------------------------------------
+2022-05-30 13:35:34,766 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
+2022-05-30 13:35:34,766 - INFO:(1000, 'ici la largeur')
+2022-05-30 13:35:34,766 - INFO:(3, 'ici Nboutton')
+2022-05-30 13:35:34,766 - INFO:(25, 'ici PAD ')
+2022-05-30 13:35:34,766 - INFO:(80, 'ici DIM')
+2022-05-30 13:35:34,766 - INFO:3
+2022-05-30 13:35:34,766 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
+2022-05-30 13:35:34,766 - DEBUG:3
+2022-05-30 13:35:34,766 - DEBUG:.!lecture.!labelframe3.!labelframe.!valeur
+2022-05-30 13:35:34,766 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-30 13:35:34,766 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-30 13:35:34,767 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-30 13:35:34,767 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-30 13:35:34,767 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-30 13:35:34,767 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-30 13:35:34,767 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-30 13:35:34,767 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-30 13:35:34,767 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-30 13:35:34,767 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-30 13:35:34,767 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-30 13:35:34,768 - DEBUG:.!lecture.!labelframe3.!labelframe.!valeur2
+2022-05-30 13:35:34,768 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-30 13:35:34,768 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-30 13:35:34,768 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-30 13:35:34,768 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-30 13:35:34,768 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-30 13:35:34,768 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-30 13:35:34,768 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-30 13:35:34,768 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-30 13:35:34,769 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-30 13:35:34,769 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-30 13:35:34,769 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-30 13:35:34,769 - DEBUG:.!lecture.!labelframe3.!labelframe.!valeur3
+2022-05-30 13:35:34,769 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-30 13:35:34,769 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-30 13:35:34,769 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-30 13:35:34,769 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-30 13:35:34,770 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-30 13:35:34,770 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-30 13:35:34,770 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-30 13:35:34,770 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-30 13:35:34,770 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-30 13:35:34,770 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-30 13:35:34,770 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-30 13:35:34,770 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
+2022-05-30 13:35:34,770 - DEBUG:3
+2022-05-30 13:35:34,770 - DEBUG:.!lecture.!labelframe3.!labelframe2.!valeur
+2022-05-30 13:35:34,771 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-30 13:35:34,771 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-30 13:35:34,771 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-30 13:35:34,771 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-30 13:35:34,771 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-30 13:35:34,771 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-30 13:35:34,771 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-30 13:35:34,771 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-30 13:35:34,771 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-30 13:35:34,771 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-30 13:35:34,772 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-30 13:35:34,772 - DEBUG:.!lecture.!labelframe3.!labelframe2.!valeur2
+2022-05-30 13:35:34,772 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-30 13:35:34,772 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-30 13:35:34,772 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-30 13:35:34,772 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-30 13:35:34,772 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-30 13:35:34,772 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-30 13:35:34,772 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-30 13:35:34,773 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-30 13:35:34,773 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-30 13:35:34,773 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-30 13:35:34,773 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-30 13:35:34,773 - DEBUG:.!lecture.!labelframe3.!labelframe2.!valeur3
+2022-05-30 13:35:34,773 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-30 13:35:34,773 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-30 13:35:34,773 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-30 13:35:34,773 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-30 13:35:34,774 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-30 13:35:34,774 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-30 13:35:34,774 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-30 13:35:34,774 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-30 13:35:34,774 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-30 13:35:34,774 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-30 13:35:34,774 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-30 13:35:34,774 - DEBUG:[[<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe2.!valeur3>], [<Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur2>, <Simulation.boutton_valeur.Valeur object .!lecture.!labelframe3.!labelframe3.!valeur3>]]
+2022-05-30 13:35:34,774 - DEBUG:3
+2022-05-30 13:35:34,774 - DEBUG:.!lecture.!labelframe3.!labelframe3.!valeur
+2022-05-30 13:35:34,775 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-30 13:35:34,775 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-30 13:35:34,775 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-30 13:35:34,775 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-30 13:35:34,775 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-30 13:35:34,775 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-30 13:35:34,775 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-30 13:35:34,775 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-30 13:35:34,775 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-30 13:35:34,775 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-30 13:35:34,776 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-30 13:35:34,776 - DEBUG:.!lecture.!labelframe3.!labelframe3.!valeur2
+2022-05-30 13:35:34,776 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-30 13:35:34,776 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-30 13:35:34,776 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-30 13:35:34,776 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-30 13:35:34,776 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-30 13:35:34,776 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-30 13:35:34,776 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-30 13:35:34,777 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-30 13:35:34,777 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-30 13:35:34,777 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-30 13:35:34,777 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-30 13:35:34,777 - DEBUG:.!lecture.!labelframe3.!labelframe3.!valeur3
+2022-05-30 13:35:34,777 - INFO:i == 0/ voici x:12.0 et voici y:52.0 i=0
+2022-05-30 13:35:34,777 - INFO:i dif 0/ voici x:3.620281055420108 et voici y:37.73069772634281 i=1
+2022-05-30 13:35:34,777 - INFO:i dif 0/ voici x:8.349858686752754 et voici y:27.374367301776097 i=2
+2022-05-30 13:35:34,777 - INFO:i dif 0/ voici x:15.805570642188592 et voici y:18.770017025829674 i=3
+2022-05-30 13:35:34,778 - INFO:i dif 0/ voici x:25.38339947992455 et voici y:12.614720185819266 i=4
+2022-05-30 13:35:34,778 - INFO:i dif 0/ voici x:36.30740646906859 et voici y:9.407142324762695 i=5
+2022-05-30 13:35:34,778 - INFO:i dif 0/ voici x:57.6925935309314 et voici y:8.407142324762688 i=6
+2022-05-30 13:35:34,778 - INFO:i dif 0/ voici x:68.61660052007548 et voici y:11.614720185819273 i=7
+2022-05-30 13:35:34,778 - INFO:i dif 0/ voici x:78.19442935781137 et voici y:17.770017025829652 i=8
+2022-05-30 13:35:34,778 - INFO:i dif 0/ voici x:85.65014131324723 et voici y:26.374367301776072 i=9
+2022-05-30 13:35:34,778 - INFO:i dif 0/ voici x:90.37971894457989 et voici y:36.73069772634281 i=10
+2022-05-30 13:35:34,778 - INFO:.!lecture.!labelframe3.!labelframe
+2022-05-30 13:35:34,779 - INFO:.!lecture.!labelframe3.!labelframe2
+2022-05-30 13:35:34,779 - INFO:.!lecture.!labelframe3.!labelframe3
+2022-05-30 13:35:34,779 - INFO:--------indicateur_niveaux-----------
